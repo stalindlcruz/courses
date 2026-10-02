@@ -1,0 +1,945 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marvel.com | The Official Site for Marvel Movies, Characters, Comics, TV</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="d-none d-sm-none d-md-block col-md-2 col-lg-2 col-xl-2 col-xxl-2">
+                    <div class="div-log-in">
+                        <img class="in-logo" src="./assets/images/in-logo.svg" alt="logo-in">
+                        <span class="span-log-in" id="show">LOG IN</span>
+                        <span>|</span>
+                        <span class="span-join" id="jopen">JOIN</span>
+                    </div>
+                </div>
+                <div class="d-none d-sm-none d-md-block col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                    <div class="div-marvel">
+                        <a href="https://www.marvel.com/">
+                            <img src="./assets/images/marvel-logo.svg" alt="marvel-logo">
+                        </a>
+                    </div>
+                </div>
+                <div class="d-none d-sm-none d-md-block col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+                    <div class="row">
+                        <div class="col-10">
+                            <div class="div-unlimited">
+                                <a class="div-unlimited-a" href="https://www.marvel.com/unlimited?cid=dcom_navigation_20210331_unlimited_top">
+                                    <img class="u-logo" src="https://cdn.marvel.com/u/prod/marvel/images/mu/web/2021/icon-mu-shield.png" alt="u-logo">
+                                    <div class="div-unlimited-ps">
+                                        <p class="div-unlimited-p">MARVEL UNLIMITED</p>
+                                        <span class="div-unlimited-span">SUBSCRIBE</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-2">
+                            <div class="div-unlimited-search-logo">
+                                <a class="div-unlimited-search-logo-a" href="https://www.marvel.com/search">
+                                    <box-icon name='search-alt-2' color="#fff"></box-icon>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="d-md-none d-lg-none d-xl-none d-xxl-none col-2 d-flex justify-content-start align-items-center">
+                    <box-icon class="" name='menu' color="#fff"></box-icon>
+                </div>
+                <div class="d-md-none d-lg-none d-xl-none d-xxl-none col-8 d-flex justify-content-center align-items-center">
+                    <div class="div-marvel-small">
+                        <a href="https://www.marvel.com/">
+                            <img src="./assets/images/marvel-logo.svg" alt="marvel-logo">
+                        </a>
+                    </div>
+                </div>
+                <div class="d-md-none d-lg-none d-xl-none d-xxl-none col-2 d-flex justify-content-end align-items-center">
+                    <box-icon name='search-alt-2' color='#fff'></box-icon>
+                </div>
+            </div>
+        </div>
+    </header>
+    <nav class="nav">
+        <!-- <div class="container">
+            <div class="row">
+                <div class="d-none d-sm-none d-md-block col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                    <div class="div-nav-ul">
+                        <ul class="ul-nav">
+                            <li> NEWS
+                                <div class="div-li-nav">
+                                    <div class="row">
+                                        <div class="col">
+                                            <ul>
+                                                <li>LATEST NEWS</li>
+                                                <li>ALL NEWS</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col">
+                                            <h2>TRENDING NEWS</h2>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col">
+                                           <article>
+                                            <img src="https://cdn.marvel.com/content/1x/captain-america-brave-new-world-official-teaser-article-card.jpg" alt="Captain America">
+                                            <h4>MOVIES</h4>
+                                            <p>Sam Wilson Takes Flight in First 'Captain America: Brave New World' Trailer</p>
+                                           </article>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>COMICS</li>
+                            <li>CHARACTERS</li>
+                            <li>MOVIES</li>
+                            <li>TV SHOWS</li>
+                            <li>GAMES</li>
+                            <li>VIDEOS</li>
+                            <li>MORE</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+    </nav>
+    <main>
+        <div class="main-div-stream">
+            <div class="container">
+                <div class="row">
+                    <div class="d-none d-sm-none d-md-block col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                        <a class="main-steam-a" href="https://www.disneyplus.com/series/x-men-97/vc1XIz90ZNH5?cid=DTCI-Synergy-Marvel-Site-Acquisition-Originals-US-Marvel-XMEN97-EN-NavPipe-Marvel_NavPipe_XMEN97-NA">
+                            STREAM X-MEN '97 EXCLUSIVELY ON <img class="main-stream-a-img" src="https://cdn.marvel.com/content/2x/disneybtn_asset2x_2024.png" alt="Disnep">
+                        </a>
+                    </div>
+                    <div class="d-md-none d-lg-none d-xl-none d-xxl-none d-lg-block col-xs-12 col-sm-12">
+                        <a class="main-steam-a-small" href="https://www.disneyplus.com/series/x-men-97/vc1XIz90ZNH5?cid=DTCI-Synergy-Marvel-Site-Acquisition-Originals-US-Marvel-XMEN97-EN-NavPipe-Marvel_NavPipe_XMEN97-NA">
+                            STREAM X-MEN '97 ON <img class="main-stream-a-img-small" src="https://cdn.marvel.com/content/2x/disneybtn_asset2x_2024.png" alt="Disnep">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-div-background">
+            <div class="container d-none d-sm-none d-md-block">
+                <div class="row">
+                    <div class="col">
+                        <img class="marvel-inifiny-logo" src="https://s3.amazonaws.com/com.marvel.terrigen/prod/1200x1200-logotagline-onblack.png" alt="marvel-inifiny-logo">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <h2 class="main-div-background-h2">READ FREE DEADPOOL & <br>WOLVERINE COMICS</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <p class="main-div-background-p">
+                            Celebrate the release of Marvel Studios' 'Deadpool & Wolverine' with an Infinity Comics takeover. Read over 50 issues featuring the best buds for free!
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <a class="main-div-background-a" href="#">
+                            <button class="main-div-background-btn">
+                                READ NOW
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="main-div-background-tbs">
+                <div class="tbs-1 container">
+                    <div class="row">
+                        <div class="col d-flex justify-content-end">
+                            <ul class="main-div-background-tbs-ul">
+                                <li>
+                                    <img class="main-div-background-tbs-imgs" src="./assets/images/facebook-logo.svg" alt="">
+                                </li>
+                                <li>
+                                    <img class="main-div-background-tbs-imgs" src="./assets/images/x-logo.svg" alt="">
+                                </li>
+                                <li>
+                                    <img class="main-div-background-tbs-imgs" src="./assets/images/ig-logo.svg" alt="">
+                                </li>
+                                <li>
+                                    <img class="main-div-background-tbs-imgs" src="./assets/images/tw-logo.svg" alt="">
+                                </li>
+                                <li>
+                                    <img class="main-div-background-tbs-imgs" src="./assets/images/tik-logo.svg" alt="">
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="tbs-1 main-div-background-tbs-1">
+                    <a class="main-div-background-tbs-1-a" href="#">
+                        Free Deadpool <br> & Wolverine Comics
+                    </a>
+                </div>
+
+                <div class="tbs-2 container">
+                    <div class="row">
+                        <div class="d-none d-sm-none d-md-block col-8 d-flex justify-content-center">
+                            <a class="main-div-background-tbs-1-a" href="#">
+                                Free Deadpool <br> & Wolverine Comics
+                            </a>
+                        </div>
+                        <div class="d-none d-sm-none d-md-block col-4 d-flex justify-content-end">
+                            <ul class="main-div-background-tbs-ul">
+                                <li>
+                                    <img class="main-div-background-tbs-imgs" src="./assets/images/facebook-logo.svg" alt="">
+                                </li>
+                                <li>
+                                    <img class="main-div-background-tbs-imgs" src="./assets/images/x-logo.svg" alt="">
+                                </li>
+                                <li>
+                                    <img class="main-div-background-tbs-imgs" src="./assets/images/ig-logo.svg" alt="">
+                                </li>
+                                <li>
+                                    <img class="main-div-background-tbs-imgs" src="./assets/images/tw-logo.svg" alt="">
+                                </li>
+                                <li>
+                                    <img class="main-div-background-tbs-imgs" src="./assets/images/tik-logo.svg" alt="">
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-div-background-md">
+            <div class="main-div-background-md-background">
+                
+            </div>  
+            <div class="container main-div-background-md-container">
+                <div class="row">
+                    <div class="col">
+                        <img class="marvel-inifiny-logo" src="https://s3.amazonaws.com/com.marvel.terrigen/prod/1200x1200-logotagline-onblack.png" alt="marvel-inifiny-logo">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <h4 class="main-div-background-md-h4">READ FREE DEADPOOL & WOLVERINE COMICS</h4>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <p class="main-div-background-md-p">
+                            Celebrate the release of Marvel Studios' 'Deadpool & Wolverine' with an Infinity Comics takeover. Read over 50 issues featuring the best buds for free!
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <button class="main-div-background-btn">
+                            READ NOW
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="main-div-background-md-tbs-2">
+                <div class="container">
+                    <div class="row">
+                        <div class="col d-flex justify-content-start">
+                            <h4 class="main-div-background-md-tbs-2-h4">FOLLOW</h4>
+                        </div>
+                        <div class="col d-flex justify-content-end">
+                            <ul class="main-div-background-tbs-2-ul">
+                                <li>
+                                    <img class="main-div-background-tbs-imgs" src="./assets/images/facebook-logo.svg" alt="">
+                                </li>
+                                <li>
+                                    <img class="main-div-background-tbs-imgs" src="./assets/images/x-logo.svg" alt="">
+                                </li>
+                                <li>
+                                    <img class="main-div-background-tbs-imgs" src="./assets/images/ig-logo.svg" alt="">
+                                </li>
+                                <li>
+                                    <img class="main-div-background-tbs-imgs" src="./assets/images/tw-logo.svg" alt="">
+                                </li>
+                                <li>
+                                    <img class="main-div-background-tbs-imgs" src="./assets/images/tik-logo.svg" alt="">
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main-double-background">
+            <div class="main-double-background-left">
+                <div class="main-double-background-left-content">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                                <img class="main-double-background-left-marvelunlimited" src="https://cdn.marvel.com/content/1x/mulogo_lob_log_eye_01_1.png" alt="Marvel-Unlimited">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                                <img class="main-double-background-left-availablenow" src="./assets/images/availablenow.png" alt="availablenow">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                                <h2 class="main-double-background-left-h2">NEW ON MARVEL UNLIMITED</h2>
+                                <P class="main-double-background-left-p">Read these plus 30,000+ for 9.99 a month!</P>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                                <button class="main-double-background-left-btn">
+                                    GET MARVEL UNLIMITED
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="main-double-background-right">
+                
+            </div>
+        </div>
+        <div class="main-double-background-sm">
+            
+        </div>
+        <div class="main-double-background-sm-2-content">
+            <div class="container main-double-background-sm-2">
+                <div class="row">
+                    <div class="col">
+                        <img class="main-double-background-left-marvelunlimited" src="https://cdn.marvel.com/content/1x/mulogo_lob_log_eye_01_1.png" alt="Marvel-Unlimited">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                            <img class="main-double-background-left-availablenow" src="./assets/images/availablenow.png" alt="availablenow">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <h2 class="main-double-background-left-h2">NEW ON MARVEL UNLIMITED</h2>
+                        <P class="main-double-background-left-p">Read these plus 30,000+ for 9.99 a month!</P>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <button class="main-double-background-left-btn">
+                            GET MARVEL UNLIMITED
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main-sliders">
+            <div class="container d-none d-sm-none d-md-block main-sliders-container">
+                <div class="row">
+                    <div class="col-2">
+                        <img class="main-sliders-imgs" src="https://cdn.marvel.com/u/prod/marvel/i/mg/d/03/661540c77197d/portrait_uncanny.jpg" alt="Wolverine: Madripoor Knights (2024)">
+                        <div class="main-sliders-div">
+                            <p class="main-sliders-p">
+                                Wolverine: Madripoor Knights (2024) #3
+                            </p>
+                            <span class="main-sliders-span">
+                                2024
+                            </span>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <img class="main-sliders-imgs" src="https://cdn.marvel.com/u/prod/marvel/i/mg/d/03/661540c77197d/portrait_uncanny.jpg" alt="Wolverine: Madripoor Knights (2024)">
+                        <div class="main-sliders-div">
+                            <p class="main-sliders-p">
+                                Wolverine: Madripoor Knights (2024) #3
+                            </p>
+                            <span class="main-sliders-span">
+                                2024
+                            </span>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <img class="main-sliders-imgs" src="https://cdn.marvel.com/u/prod/marvel/i/mg/d/03/661540c77197d/portrait_uncanny.jpg" alt="Wolverine: Madripoor Knights (2024)">
+                        <div class="main-sliders-div">
+                            <p class="main-sliders-p">
+                                Wolverine: Madripoor Knights (2024) #3
+                            </p>
+                            <span class="main-sliders-span">
+                                2024
+                            </span>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <img class="main-sliders-imgs" src="https://cdn.marvel.com/u/prod/marvel/i/mg/d/03/661540c77197d/portrait_uncanny.jpg" alt="Wolverine: Madripoor Knights (2024)">
+                        <div class="main-sliders-div">
+                            <p class="main-sliders-p">
+                                Wolverine: Madripoor Knights (2024) #3
+                            </p>
+                            <span class="main-sliders-span">
+                                2024
+                            </span>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <img class="main-sliders-imgs" src="https://cdn.marvel.com/u/prod/marvel/i/mg/d/03/661540c77197d/portrait_uncanny.jpg" alt="Wolverine: Madripoor Knights (2024)">
+                        <div class="main-sliders-div">
+                            <p class="main-sliders-p">
+                                Wolverine: Madripoor Knights (2024) #3
+                            </p>
+                            <span class="main-sliders-span">
+                                2024
+                            </span>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <img class="main-sliders-imgs" src="https://cdn.marvel.com/u/prod/marvel/i/mg/d/03/661540c77197d/portrait_uncanny.jpg" alt="Wolverine: Madripoor Knights (2024)">
+                        <div class="main-sliders-div">
+                            <p class="main-sliders-p">
+                                Wolverine: Madripoor Knights (2024) #3
+                            </p>
+                            <span class="main-sliders-span">
+                                2024
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-sliders-2nd">
+            <div class="container d-none d-sm-none d-md-block main-sliders-2nd-container">
+                <div class="row">
+                    <div class="col-2">
+                        <img class="main-sliders-imgs-2nd" src="https://cdn.marvel.com/u/prod/marvel/i/mg/d/03/661540c77197d/portrait_uncanny.jpg" alt="Wolverine: Madripoor Knights (2024)">
+                        <div class="main-sliders-div-2nd">
+                            <p class="main-sliders-p-2nd">
+                                Wolverine: Madripoor Knights (2024) #3
+                            </p>
+                            <span class="main-sliders-span-2nd">
+                                2024
+                            </span>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <img class="main-sliders-imgs-2nd" src="https://cdn.marvel.com/u/prod/marvel/i/mg/d/03/661540c77197d/portrait_uncanny.jpg" alt="Wolverine: Madripoor Knights (2024)">
+                        <div class="main-sliders-div-2nd">
+                            <p class="main-sliders-p-2nd">
+                                Wolverine: Madripoor Knights (2024) #3
+                            </p>
+                            <span class="main-sliders-span-2nd">
+                                2024
+                            </span>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <img class="main-sliders-imgs-2nd" src="https://cdn.marvel.com/u/prod/marvel/i/mg/d/03/661540c77197d/portrait_uncanny.jpg" alt="Wolverine: Madripoor Knights (2024)">
+                        <div class="main-sliders-div-2nd">
+                            <p class="main-sliders-p-2nd">
+                                Wolverine: Madripoor Knights (2024) #3
+                            </p>
+                            <span class="main-sliders-span-2nd">
+                                2024
+                            </span>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <img class="main-sliders-imgs-2nd" src="https://cdn.marvel.com/u/prod/marvel/i/mg/d/03/661540c77197d/portrait_uncanny.jpg" alt="Wolverine: Madripoor Knights (2024)">
+                        <div class="main-sliders-div-2nd">
+                            <p class="main-sliders-p-2nd">
+                                Wolverine: Madripoor Knights (2024) #3
+                            </p>
+                            <span class="main-sliders-span-2nd">
+                                2024
+                            </span>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <img class="main-sliders-imgs-2nd" src="https://cdn.marvel.com/u/prod/marvel/i/mg/d/03/661540c77197d/portrait_uncanny.jpg" alt="Wolverine: Madripoor Knights (2024)">
+                        <div class="main-sliders-div-2nd">
+                            <p class="main-sliders-p-2nd">
+                                Wolverine: Madripoor Knights (2024) #3
+                            </p>
+                            <span class="main-sliders-span-2nd">
+                                2024
+                            </span>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <img class="main-sliders-imgs-2nd" src="https://cdn.marvel.com/u/prod/marvel/i/mg/d/03/661540c77197d/portrait_uncanny.jpg" alt="Wolverine: Madripoor Knights (2024)">
+                        <div class="main-sliders-div-2nd">
+                            <p class="main-sliders-p-2nd">
+                                Wolverine: Madripoor Knights (2024) #3
+                            </p>
+                            <span class="main-sliders-span-2nd">
+                                2024
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container d-md-none d-lg-none d-xl-none d-xxl-none  main-sliders-2nd-container">
+                <div class="row">
+                    <div class="col-4">
+                        <img class="main-sliders-imgs-2nd-1" src="https://cdn.marvel.com/u/prod/marvel/i/mg/d/03/661540c77197d/portrait_uncanny.jpg" alt="Wolverine: Madripoor Knights (2024)">
+                        <div class="main-sliders-div-2nd-1">
+                            <p class="main-sliders-p-2nd-1">
+                                Wolverine: Madripoor Knights (2024) #3
+                            </p>
+                            <span class="main-sliders-span-2nd-1">
+                                2024
+                            </span>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <img class="main-sliders-imgs-2nd-1" src="https://cdn.marvel.com/u/prod/marvel/i/mg/d/03/661540c77197d/portrait_uncanny.jpg" alt="Wolverine: Madripoor Knights (2024)">
+                        <div class="main-sliders-div-2nd-1">
+                            <p class="main-sliders-p-2nd-1">
+                                Wolverine: Madripoor Knights (2024) #3
+                            </p>
+                            <span class="main-sliders-span-2nd-1">
+                                2024
+                            </span>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <img class="main-sliders-imgs-2nd-1" src="https://cdn.marvel.com/u/prod/marvel/i/mg/d/03/661540c77197d/portrait_uncanny.jpg" alt="Wolverine: Madripoor Knights (2024)">
+                        <div class="main-sliders-div-2nd-1">
+                            <p class="main-sliders-p-2nd-1">
+                                Wolverine: Madripoor Knights (2024) #3
+                            </p>
+                            <span class="main-sliders-span-2nd-1">
+                                2024
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <aside></aside>
+    <footer>
+        <div class="container">
+            <div class="footer">
+                <div class="row">
+                    <div class="d-none d-sm-none d-md-block col-2">
+                        <img class="mlogof" src="./assets/images/mlogof.svg" alt="mlogo">
+                    </div>
+                    <div class="d-none d-sm-none d-md-block col-2">
+                        <div class="row">
+                            <div class="col">
+                                <a class="fcaf" href="#">ABOUT MARVEL</a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <a class="fcaf" href="#">HELP/FAQSL</a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <a class="fcaf" href="#">CAREERS</a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <a class="fcaf" href="#">INTERSHIPS</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-none d-sm-none d-md-block col-2">
+                        <div class="row">
+                            <div class="col">
+                                <a class="scaf" href="#">ADVERTISING</a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <a class="scaf" href="#">DISNEY+</a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <a class="scaf" href="#">MARVELHQ.COM</a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <a class="scaf" href="#">REDEEM DIGITAK Comics</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-none d-sm-none d-md-block col-4">
+                        <a class="a-marvel-unlimited-footer" href="#">
+                            <div class="row">
+                                <div class="col-4">
+                                    <div class="div-marvel-insider-logo">
+                                        <img class="marvel-insider-logo" src="https://cdn.marvel.com/content/1x/marvel_insider-topnav-logo-large2x.png" alt="marvel-insider-logo">
+                                    </div>
+                                </div>
+                                <div class="col-8">
+                                    <h4 class="h4-tittlef">MARVEL INSIDER</h4>
+                                    <P class="p-footer">Get Rewarded for Being a Marvel Fan</P>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="a-marvel-unlimited-footer" href="#">
+                            <div class="row">
+                                <div class="col-4">
+                                    <img class="marvel-u-logo" src="https://cdn.marvel.com/content/1x/mu-logo-w-nav-2x-2021-02.png" alt="marvel-u-logo">
+                                </div>
+                                <div class="col-8">
+                                    <h4 class="h4-tittlef">MARVEL UNLIMITED</h4>
+                                    <P class="p-footer">Access Over 30,000+ Digital Comics</P>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="d-none d-sm-none d-md-block col-2">
+                        <div class="row">
+                            <div class="col">
+                                <h4 class="h4-tittlef">FOLLOW MARVEL</h4>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-3">
+                                <a href="#">
+                                    <img src="./assets/images/facebook-logo.svg" alt="facebook-logo">
+                                </a>
+                            </div>
+                            <div class="col-3">
+                                <a href="#">
+                                    <img src="./assets/images/x-logo.svg" alt="x-logo">
+                                </a>
+                            </div>
+                            <div class="col-3">
+                                <a href="#">
+                                    <img src="./assets/images/ig-logo.svg" alt="ig-logo">
+                                </a>
+                            </div>
+                            <div class="col-3">
+                                <a href="#">
+                                    <img src="./assets/images/t-logo.svg" alt="t-logo">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-3">
+                                <a href="#">
+                                    <img src="./assets/images/yt-logo.svg" alt="YouTube-logo">
+                                </a>
+                            </div>
+                            <div class="col-3">
+                                <a href="#">
+                                    <img src="./assets/images/sc-logo.svg" alt="SnapChat-logo">
+                                </a>
+                            </div>
+                            <div class="col-3">
+                                <a href="#">
+                                    <img src="./assets/images/p-logo.svg" alt="pinterest-logo">
+                                </a>
+                            </div>
+                            <div class="col-3">
+                                <a href="#">
+                                    <img src="./assets/images/tw-logo.svg" alt="twitch-logo">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <a href="#">
+                                    <img src="./assets/images/tik-logo.svg" alt="tik-logo">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <ul class="ul-footer">
+                            <li class="li-footer">
+                                <a class="a-ul-footer" href="#">Terms of use</a>
+                            </li>
+                            <li class="li-footer">
+                                <a class="a-ul-footer" href="#">Privacy Policy</a>
+                            </li>
+                            <li class="li-footer">
+                                <a class="a-ul-footer" href="#">Your US State Privacy Rights</a>
+                            </li>
+                            <li class="li-footer">
+                                <a class="a-ul-footer" href="#">Children's Online Privacy Policy</a>
+                            </li>
+                            <li class="li-footer">
+                                <a class="a-ul-footer" href="#">License Agreement</a>
+                            </li>
+                            <li class="li-footer">
+                                <a class="a-ul-footer" href="#">Interest-Based Ads</a>
+                            </li>
+                            <li class="li-footer">
+                                <a class="a-ul-footer" href="#">Marvel Insider Terms</a>
+                            </li>
+                            <li class="li-footer">
+                                <span>© 2024 MARVEL</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-small">
+                <div class="row">
+                    <div class="col d-flex justify-content-center d-block d-sm-none">
+                        <img class="mlogof" src="./assets/images/mlogof.svg" alt="mlogo">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-2 d-flex justify-content-start d-none d-sm-block">
+                        <img class="mlogof" src="./assets/images/mlogof.svg" alt="mlogo">
+                    </div>
+                    <div class="col-6 d-block d-sm-none justify-content-center">
+                        <div class="row">
+                            <div class="col">
+                                <a class="fcaf" href="#">ABOUT MARVEL</a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <a class="fcaf" href="#">HELP/FAQSL</a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <a class="fcaf" href="#">CAREERS</a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <a class="fcaf" href="#">INTERSHIPS</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 d-block d-sm-none justify-content-center">
+                        <div class="row">
+                            <div class="col">
+                                <a class="scaf" href="#">ADVERTISING</a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <a class="scaf" href="#">DISNEY+</a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <a class="scaf" href="#">MARVELHQ.COM</a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <a class="scaf" href="#">REDEEM DIGITAK Comics</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-5 d-none d-sm-block">
+                        <div class="row">
+                            <div class="col">
+                                <a class="fcaf" href="#">ABOUT MARVEL</a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <a class="fcaf" href="#">HELP/FAQSL</a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <a class="fcaf" href="#">CAREERS</a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <a class="fcaf" href="#">INTERSHIPS</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-5 d-none d-sm-block">
+                        <div class="row">
+                            <div class="col">
+                                <a class="scaf" href="#">ADVERTISING</a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <a class="scaf" href="#">DISNEY+</a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <a class="scaf" href="#">MARVELHQ.COM</a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <a class="scaf" href="#">REDEEM DIGITAK Comics</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-small-2">
+                <div class="row">
+                    <div class="col-2 d-block d-sm-none">
+                        <img class="logos-small" src="https://cdn.marvel.com/content/1x/marvel_insider-topnav-logo-large2x.png" alt="marvel-insider-logo">
+                    </div>
+                    <div class="col-10 d-block d-sm-none">
+                        <h4 class="h4-footer-small">MARVEL INSIDER</h4>
+                        <p class="p-footer-small">Get Rewarded for Being a Marvel Fan</p>
+                    </div>
+                    
+
+                    <div class="col-2 d-none d-sm-block">
+                        <img class="logos-small" src="https://cdn.marvel.com/content/1x/marvel_insider-topnav-logo-large2x.png" alt="marvel-insider-logo">
+                    </div>
+                    <div class="col-4 d-none d-sm-block">
+                        <h4 class="h4-footer-small">MARVEL INSIDER</h4>
+                        <p class="p-footer-small">Get Rewarded for Being a Marvel Fan</p>
+                    </div>
+                    <div class="col-2 d-none d-sm-block">
+                        <img class="logos-small" src="https://cdn.marvel.com/content/1x/mu-logo-w-nav-2x-2021-02.png" alt="marvel-insider-logo">
+                    </div>
+                    <div class="col-4 d-none d-sm-block">
+                        <h4 class="h4-footer-small">MARVEL UNLIMITED</h4>
+                        <p class="p-footer-small">Access Over 30,000+ Digital Comics</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-2 d-block d-sm-none">
+                        <img class="logos-small" src="https://cdn.marvel.com/content/1x/mu-logo-w-nav-2x-2021-02.png" alt="marvel-insider-logo">
+                    </div>
+                    <div class="col-10 d-block d-sm-none">
+                        <h4 class="h4-footer-small">MARVEL UNLIMITED</h4>
+                        <p class="p-footer-small">Access Over 30,000+ Digital Comics</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-small-3">
+                <div class="row">
+                    <div class="col d-flex justify-content-start">
+                        <h4 class="h4-footer-small-3">FOLLOW MARVEL</h4>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <ul class="ul-footer-small-3 d-flex justify-content-start justify-content-between">
+                            <li>
+                                <a href="#">
+                                    <img class="img-footer-small-3" src="./assets/images/facebook-logo.svg" alt="facebook-logo">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img class="img-footer-small-3" src="./assets/images/x-logo.svg" alt="x-logo">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img class="img-footer-small-3" src="./assets/images/ig-logo.svg" alt="ig-logo">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="11" height="18" viewBox="0 0 11 18"><path fill="#767676" fill-rule="evenodd" d="M8.535 14.5c-1.532.038-1.83-1-1.842-1.751V7.217h3.844v-2.69h-3.83V0H3.904a.147.147 0 00-.138.133C3.602 1.518 2.904 3.949 0 4.922v2.295h1.937v5.806c0 1.988 1.58 4.812 5.749 4.745 1.407-.022 2.969-.569 3.314-1.04l-.92-2.535c-.356.158-1.037.295-1.545.307z"></path></svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img class="img-footer-small-3" src="./assets/images/yt-logo.svg" alt="YouTube-logo">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img class="img-footer-small-3" src="./assets/images/sc-logo.svg" alt="SnapChat-logo">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img class="img-footer-small-3" src="./assets/images/p-logo.svg" alt="pinterest-logo">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img class="img-footer-small-3" src="./assets/images/tw-logo.svg" alt="twitch-logo">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img class="img-footer-small-3" src="./assets/images/tik-logo.svg" alt="tik-logo">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <section>
+        <div class="join-modal" id="jmodal">
+
+        </div>
+
+        <div class="log-in-modal" id="dialog">
+        <button class="close-modal" id="hide">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.92894 4.92888C4.53842 5.3194 4.53842 5.95257 4.92894 6.34309L10.5858 11.9999L4.92894 17.6568C4.53842 18.0473 4.53842 18.6805 4.92894 19.071C5.31946 19.4615 5.95263 19.4615 6.34315 19.071L12 13.4142L17.6569 19.071C18.0474 19.4615 18.6806 19.4615 19.0711 19.071C19.4616 18.6805 19.4616 18.0473 19.0711 17.6568L13.4142 11.9999L19.0711 6.34309C19.4616 5.95257 19.4616 5.3194 19.0711 4.92888C18.6806 4.53836 18.0474 4.53836 17.6569 4.92888L12 10.5857L6.34315 4.92888C5.95263 4.53836 5.31946 4.53836 4.92894 4.92888Z" fill="#252526"></path></svg>
+        </button>
+        <img class="marvel-logo-modal" src="https://cdn.registerdisney.go.com/v4/asset/bundler/MARVEL/v4/images/v1/marvel-logo.svg" alt="marvel-logo-modal">
+        <div class="div-modal-form">
+            <form class="container form-modal" action="">
+                <div class="row">
+                    <div class="col">
+                        <img class="my-disnep-logo" src="./assets/images/my-disnep-logo.svg" alt="my-disnep-logo">
+                        <h2 class="tittle-form">Enter your email to continue</h2>
+                        <p class="p1-modal">Log in to Marvel with your MyDisney account. If you don't have one, you will be prompted to create one.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col div-input-modal">
+                        <input class="input-modal" type="email" name="email" id="input-email" placeholder="Email">
+                        <button class="btn-modal" type="submit">Continue</button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <h3 class="sub-tittle-modal">Marvel is part of The Walt Disney Family of Companies.</h3>
+                        <p class="p2-modal">
+                            MyDisney lets you seamlessly log in to services and experiences across The Walt Disney Family of Companies, such as Disney+, ESPN, Walt Disney World, <br>
+                            <a class="p2-modal-a" href="https://my.disney.com/">and more.</a>
+                        </p>
+                    </div>
+                </div>
+            </form>
+        </div>
+        </div>
+    </section>
+
+    <script src="main.js"></script>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

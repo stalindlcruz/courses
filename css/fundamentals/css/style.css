@@ -1,0 +1,231 @@
+#titulo {
+    color: blue;
+}
+
+p.texto {
+    color: brown;
+}
+
+p.especial {
+    color: lightgreen;
+}
+
+div p {
+    color: aquamarine;
+}
+
+div h2, div h3 {    /*Esto es un comentario*/
+    color: blueviolet;
+}
+
+* {
+    font-size: 24px;
+    /* color: black;   Esto es un comentario */
+}
+
+/*Esto es un comentario*/
+
+/*
+    Esto es un comentario
+    que tiene varias
+    lineas.
+*/
+
+/*
+    .color {
+    color: #ff0000;
+}
+
+.color {
+    color: rgb(0, 255, 255);
+}
+*/
+
+/* .color {
+    border: 5px rgb(206, 69, 69) outset;
+} */
+
+/*
+    dotted
+    dashed
+    solid
+    double
+    groove
+    ridge
+    inset
+    outset
+    none
+    hidden
+*/
+
+.color {
+    border-style: solid;
+    border-color: blue;
+    border-radius: 5px;
+    border-width: 2rem;
+}
+
+#fondo {
+    background-color: rgba(255,0,0,0.3);
+    /* opacity: 0.3; */
+    /* background-image: url('img/coffee.png'); */
+    height: 200px;
+    /* background-size: auto;
+    background-size: cover;
+    background-size: contain; */
+    /* background-repeat: repeat-y; */
+    /* background-repeat: repeat-x;
+    background-repeat: no-repeat; */
+    /* background-position: center bottom; */
+    /* background-position: left;
+    background-position: right; */
+    background: #f00 url('img/coffee.png') repeat-y center bottom / 200px 200px;
+    /* background-size: 200px 200px; */
+}
+
+.margen {
+    background-color: chocolate;
+    margin: 15px;
+    padding: 30px 15px 5px;
+    /* margin: 15px 20px 25px 30px;
+    padding: 30px 25px 20px 15px; */
+    border: solid 2px black;
+    height: 100px;
+    width: 50px;
+    overflow: scroll;
+    /* overflow: hidden; */
+    outline: 1px solid red;
+}
+
+.text {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    text-decoration: underline;
+    text-shadow: 3px 5px 5px blue;
+}
+
+a:link {
+    color: brown;
+}
+
+a:visited {
+    color: gray;
+}
+
+a:hover {
+    color: yellow;
+}
+
+a:active {
+    color: red;
+}
+
+ul {
+    background-color: cyan;
+    /* list-style-type: none; */
+    list-style-type: lower-latin;
+    /* padding-left: 0%; */
+    /* list-style-position: inside; */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: solid 1px #eee;
+    padding: 5px;
+}
+
+th {
+    background-color: tomato;
+    color: white;
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background-color: #eee;
+}
+
+tr:hover {
+    background-color: #aaa;
+    cursor: pointer;
+}
+
+/* span {
+    display: block;
+    display: none;
+    visibility: hidden;
+    width: 300px;
+    max-width: 300px;
+    background-color: #f00;
+} */
+
+/* .inline {
+    display: inline;
+} */
+
+#position {
+    position: sticky;
+    /* position: relative; */
+    /* position: fixed; */
+    left: 20px;
+    top: 25px;
+}
+
+.left {
+    float: left;
+    width: 100px;
+}
+
+.right {
+    float: right;
+}
+
+.container {
+    height: 200px;
+}
+
+.cont {
+    height: 200px;
+}
+
+.lef {
+    float: left;
+    width: 200px;
+    height: 200px;
+}
+
+/* .card {
+    border: solid 1px #ddd;
+    border-radius: 5px;
+    margin: 0 15px;
+    padding: 10px 15px;
+
+    border: solid 0px #ddd;
+    border-radius: 5px;
+    margin: 0;
+    padding: 10px 0;
+    width: 33.3%;
+} */
+
+.column {
+    margin: 0;
+    padding: 10px 0;
+    width: 33.3%;
+}
+
+.inline-block {
+    display: inline-block;
+    height: 60px;
+    background-color: red;
+}
+
+.center {
+    padding: 10px 0;
+    text-align: center;
+    width: 200px;
+    margin: 0 auto;
+    background-color: aqua;
+}

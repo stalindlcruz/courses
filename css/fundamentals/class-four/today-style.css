@@ -1,0 +1,69 @@
+/* body {
+    background-image: url('./bc.jpg');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+} */
+
+article {
+  width: 250px;
+  height: 250px;
+  background-color: rgba(0, 1, 1, 0.708);
+  color: white;
+  border-radius: 5px;
+  padding: 20px;
+  transition: height 0.5s;
+}
+
+h2 {
+  font-family: "Nosifer", sans-serif;
+}
+
+p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 12px;
+}
+
+blockquote {
+  font-style: italic;
+}
+
+span {
+  font-weight: bold;
+  color: red;
+  text-decoration: underline;
+}
+
+/* a {
+    color: black;
+    background-color: lightgreen;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px 2px red;
+} */
+
+a:link {
+  color: green;
+}
+
+a:visited {
+  color: aqua;
+}
+
+a:hover {
+  color: gray;
+}
+
+a:active {
+  color: red;
+}
+
+article:hover {
+  background-color: rgb(26, 142, 181);
+  cursor: pointer;
+  height: 300px;
+  transition: height 0.5s;
+}
+

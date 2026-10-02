@@ -1,0 +1,1094 @@
+* {
+    font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+header {
+    width: 100%;
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    height: 52px;
+    background-color: #202020;
+    border-bottom: 1px solid #393939;
+}
+
+nav {
+    width: 100%;
+    height: 40px;
+    background-color: #202020;
+}
+
+main {
+    font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
+}
+
+footer {
+    font-family: "Roboto", sans-serif;
+    width: 100%;
+    height: 380px;
+    background-color: #c7c7c7;
+    background-color: #151515;
+    position: absolute;
+    /* bottom: 0; */
+    /* top: 1200px; */
+    box-sizing: border-box;
+}
+
+.div-log-in {
+    width: 150px;
+    height: 52px;
+    border-left: 1px solid #393939;
+    border-right: 1px solid #393939;
+    color: #fff;
+    display: inline-flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+}
+
+.span-log-in {
+    cursor: pointer;
+}
+
+.in-logo {
+    width: 20px;
+}
+
+.log-in-modal {
+    /* display: grid;
+    place-content: center; */
+    background-image: url(https://cdn.registerdisney.go.com/v4/asset/bundler/MARVEL/v4/images/v1/marvel-background-web.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    border: none;
+    position: absolute;
+    top: 0;
+    /* overflow: hidden; */
+    /* position: absolute; */
+    /* position: fixed;
+    inset: 0;
+    margin: auto; */
+    /* top: 0;
+    left: 0;
+    z-index: 1000;
+    overflow: hidden; */
+}
+
+.close-modal {
+    background-color: #dfdfdf;
+    /* width: 25px;
+    height: 25px; */
+    border-radius: 20px;
+    /* margin-top: 5px;
+    margin-left: 96%; */
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    border: none;
+    outline: none;
+}
+    
+.marvel-logo-modal {
+    width: 150px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: auto;
+    top: 50px;
+    /* place-content: center; */
+    /* position: absolute;
+    top: 50px;
+    margin: auto; */
+    /* margin-top: 10px;
+    margin-left: 45%; */
+    /* width: 150px; */
+    /* position: absolute;
+    right: 0;
+    left: 0;
+    top: 25px;
+    margin: auto; */
+}
+
+.div-modal-form {
+    border-radius: 20px;
+    display: grid;
+    place-content: center;
+    width: 580px;
+    height: 600px;
+    background-color: #fff;
+    position: absolute;
+    inset: 0; /* <-- esto es lo mismo que right,left,top and bottom con valor de cero todos juntos*/
+    margin: auto;
+}
+
+.form-modal {
+    font-family: "Noto Sans", sans-serif;
+    /* background-color: aliceblue; */
+    width: 436px;
+    height: 491px;
+}
+
+.my-disnep-logo {
+    width: 80px;
+    height: 36px;
+}
+
+.tittle-form {
+    font-size: 25px;
+    font-weight: 600;
+    color: #252526;
+    margin-top: 10px;
+}
+
+.p1-modal {
+    font-size: 14px;
+    color: #252526;
+    margin-top: 10px;
+}
+
+.div-input-modal {
+    border-bottom: 1px solid #e9ebf0;
+}
+
+.input-modal {
+    font-size: 16px;
+    background-color: #e9ebf0;
+    padding: 16px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    height: 60px;
+}
+
+.btn-modal {
+    font-weight: 700;
+    font-size: 14px;
+    background-color: #E62429;
+    color: #fff;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    width: 100%;
+    height: 52px;
+    border: none;
+}
+
+.sub-tittle-modal {
+    color: #5f6166;
+    font-size: 14px;
+    margin-top: 24px;
+}
+
+.p2-modal {
+    font-size: 12px;
+    color: #5f6166;
+}
+
+.p2-modal-a {
+    color: #0040E5;
+    text-decoration: none;
+}
+
+.logos-form {
+    width: 10px;
+}
+
+.join-modal {
+    width: 500px;
+    height: 700px;
+    background-color: #a5d0bc66;
+    position: absolute;
+    top: 52px;
+    left: 35px;
+    display: none;
+}
+
+.div-marvel {
+    display: flex;
+    justify-content: center;
+}
+
+.div-unlimited {
+    width: 180px;
+    height: 52px;
+    box-sizing: border-box;
+    display: grid;
+    place-content: center;
+    border-left: 1px solid #393939;
+    border-right: 1px solid #393939;
+    cursor: pointer;
+}
+
+.div-unlimited .div-unlimited-a {
+    font-weight: 400;
+    color: #fff;
+    text-decoration: none;
+    display: inline-flex;
+    place-items: center;
+    gap: 10px;
+    line-height: .0;
+}
+
+.div-unlimited .u-logo {
+    width: 22px;
+    height: 25px;
+}
+
+.div-unlimited-ps {
+    text-align: center;
+}
+
+.div-unlimited-p {
+    text-align: center;
+    color: #fff;
+}
+
+.div-unlimited-span {
+    font-size: 10px;
+}
+
+.div-unlimited-search-logo {
+    width: 50px;
+    height: 52px;
+    box-sizing: border-box;
+}
+
+/* .div-unlimited-search-logo-a {
+    display: grid;
+    place-content: center;
+} */
+
+/* .div-nav-ul {
+    display: grid;
+    justify-content: center;
+    position: relative;
+    top: 10px;
+} */
+
+/* .ul-nav {
+    font-size: 12px;
+    color: #fff;
+    display: inline-flex;
+    gap: 30px;
+    list-style-type: none;
+    letter-spacing: 1px;
+} */
+
+/* .div-li-nav {
+    width: 9000px;
+    background-color: #fff;
+    display: none;
+} */
+
+/* .div-li-nav:hover {
+    display: inline-block;
+} */
+
+.main-div-stream {
+    width: 100%;
+    height: 40px;
+    background-color: #151515;
+}
+
+.main-steam-a {
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    place-content: center;
+    position: relative;
+    top: 10px;
+}
+
+.main-steam-a-small {
+    font-size: 12px;
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    place-content: center;
+    position: relative;
+    top: 10px;
+}
+
+.main-stream-a-img {
+    width: 50px;
+    position: relative;
+    left: 10px;
+    bottom: 8px;
+}
+
+.main-stream-a-img-small {
+    width: 50px;
+    position: relative;
+    left: 10px;
+    bottom: 8px;
+}
+
+.main-div-background {
+    width: 100%;
+    height: 640px;
+    background-image: url(https://s3.amazonaws.com/com.marvel.terrigen/prod/mu-sellpage-infinity-dsk_3840x12801.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    /* background-attachment: fixed; */
+    /* background-position: center;
+    background-repeat: no-repeat; */
+    display: grid;
+    align-items: center;
+    position: relative;
+}
+
+.marvel-inifiny-logo {
+    width: 95px;
+}
+
+.main-div-background-h2 {
+    color: #fff;
+    font-weight: 500;
+}
+
+.main-div-background-p {
+    font-size: 16px;
+    flex-wrap: wrap;
+    color: #fff;
+}
+
+.main-div-background-a {
+    text-decoration: none;
+}
+
+.main-div-background-btn {
+    font-size: 14px;
+    width: 140px;
+    height: 40px;
+    background-color: #e62429;
+    color: #fff;
+    border-radius: 20px 0 20px 0;
+    /* margin: 0 15px 15px 0; */
+    border: none;
+}
+
+.tbs-2 {
+    display: none;
+}
+
+.main-div-background-tbs {
+    background-color: #fff;
+    width: 100%;
+    height: 40px;
+    position: absolute;
+    bottom: 0;
+}
+
+.main-div-background-tbs-ul {
+    list-style-type: none;
+    display: inline-flex;
+    position: absolute;
+    gap: 10px;
+    top: 7px;
+}
+
+.main-div-background-tbs-imgs {
+    width: 17px;
+}
+
+.main-div-background-tbs-1 {
+    width: 500px;
+    background-color: #fff;
+    height: 60px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    display: grid;
+    place-content: center;
+    cursor: pointer;
+}
+
+.main-div-background-tbs-1-a {
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 1.2;
+    color: #151515;
+    text-decoration: none;
+}
+
+.main-div-background-md {
+    display: none;
+}
+
+.main-div-background-md-tbs {
+    display: none;
+}
+
+/* .main-div-background {
+    background-color: #151515;
+    width: 100%;
+    height: 640px;
+    background: linear-gradient(to right, #171717 10%, rgba(21, 21, 21, 0.8) 30%, rgba(21, 21, 21, 0) 90%), url(https://i.ytimg.com/vi/O_A8HdCDaWM/maxresdefault.jpg);
+    background-position: center;
+    background-size: 100% 640px;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-color: #151515;
+} */
+
+.main-double-background {
+    width: 100%;
+    height: 560px;
+}
+
+.main-double-background-left {
+    background-color: #151515;
+    width: 50%;
+    height: 560px;
+    position: absolute;
+    box-sizing: border-box;
+    display: grid;
+    place-items: center;
+    border: none;
+}
+
+.main-double-background-left-content {
+    display: grid;
+    place-content: center;
+}
+
+.main-double-background-left-marvelunlimited {
+    width: 60px;
+
+}
+.main-double-background-left-availablenow {
+    width: 200px;
+    position: relative;
+    left: -30px;
+}
+
+.main-double-background-left-h2 {
+    font-size: 30px;
+    color: #fff;
+    position: relative;
+}
+
+.main-double-background-left-p {
+    font-size: 16px;
+    color: #fff;
+    position: relative;
+    top: -5px;
+    
+}
+
+.main-double-background-left-btn {
+    font-size: 14px;
+    line-height: 16px;
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 10px 15px 10px 15px;
+    border-radius: 20px 0 20px 0;
+}
+
+.main-double-background-right {
+    background-image: url(https://cdn.marvel.com/content/1x/20240124-newtomu_base_set_dsk.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    height: 560px;
+    position: absolute;
+    right: 0;
+    margin: auto;
+    border: none;
+}
+
+.main-sliders {
+    background-color: #fff;
+    width: 100%;
+    height: 400px;
+    display: grid;
+    place-content: center;
+}
+
+.main-sliders-container {
+    width: 100%;
+    height: 350px;
+    background-color: #fff;
+    position: relative;
+    top: -60px;
+    display: grid;
+    place-content: center;
+}
+
+.main-sliders-div {
+    position: relative;
+    top: 10px;
+    /* background-color: #0040E5; */
+    
+}
+
+.main-sliders-imgs {
+    width: 170px;
+    height: 250px;
+}
+
+.main-sliders-p {
+    font-size: 14px;
+    margin-bottom: -1px;
+}
+
+.main-sliders-span {
+    color: #767676;
+    font-size: 12px;
+}
+
+.footer {
+    padding: 80px 0 30px;
+}
+
+.mlogof {
+    width: 80px;
+}
+
+.fcaf {
+    font-size: 13px;
+    font-weight: 500;
+    color: #fff;
+    text-decoration: none;
+}
+
+.scaf {
+    font-size: 13px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.h4-tittlef {
+    font-size: 14px;
+    color: #fff;
+}
+
+.p-footer {
+    font-size: 14px;
+    color: #767676;
+}
+
+.marvel-insider-logo, .marvel-u-logo {
+    width: 50px;
+}
+
+.ul-footer  {
+    font-size: 12px;
+    color: #767676;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style: none;
+    gap: 10px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: auto;
+    bottom: 30px;
+}
+
+.li-footer .a-ul-footer {
+    color: #767676;
+    text-decoration: none;
+}
+
+.a-marvel-unlimited-footer {
+    text-decoration: none;
+}
+
+/* .div-marvel-insider-logo {
+    
+} */
+
+.input-modal:hover {
+    border-bottom: 3px solid #929292;
+}
+
+.close-modal:hover {
+    background-color: #c7c7c7;
+}
+
+.btn-modal:hover {
+    background-color: #cc1f24;
+}
+
+.p2-modal-a:hover {
+    text-decoration: underline;
+}
+
+.fcaf:hover, .scaf:hover {
+    color: #bbb;
+}
+
+.a-ul-footer:hover {
+    color: #fff;
+}
+
+.input-modal:focus {
+    border-bottom: 3px solid #2c2c2d;
+}
+
+.main-div-background-btn:hover {
+    background-color: #b61b21;
+}
+
+.footer-small, .footer-small-2, .footer-small-3, .main-double-background-sm-2-content, .main-double-background-sm-2, .main-sliders-2nd {
+    display: none;
+}
+
+@media (max-width: 768px) {
+
+    footer {
+        height: 480px;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .footer-small {
+        display: block;
+        width: 100%;
+        /* background-color: #0040E5; */
+        position: relative;
+        top: -80px;
+        border-bottom: 1px solid #393939;
+        padding: 0 0 20px 0;
+    }
+
+    .mlogof {
+        width: 80px;
+        
+    }
+    
+    .fcaf {
+        font-size: 13px;
+        font-weight: 500;
+        color: #fff;
+        text-decoration: none;
+        position: relative;
+        left: 20px;
+    }
+    
+    .scaf {
+        font-size: 13px;
+        color: #fff;
+        text-decoration: none;
+    }
+    
+    .h4-tittlef {
+        font-size: 14px;
+        color: #fff;
+    }
+    
+    .p-footer {
+        font-size: 14px;
+        color: #767676;
+    }
+    
+    .marvel-insider-logo, .marvel-u-logo {
+        width: 50px;
+    }
+    
+    .ul-footer  {
+        font-size: 12px;
+        color: #767676;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        list-style: none;
+        gap: 10px;
+        position: absolute;
+        right: 0;
+        left: 0;
+        margin: auto;
+        bottom: 20px;
+    }
+    
+    .li-footer .a-ul-footer {
+        color: #767676;
+        text-decoration: none;
+    }
+    
+    .a-marvel-unlimited-footer {
+        text-decoration: none;
+    }
+
+    .footer-small-2 {
+        display: block;
+        position: relative;
+        bottom: 50px;
+        border-bottom: 1px solid #393939;
+        padding-bottom: -10px;
+        flex-wrap: wrap;
+    }
+
+    .logos-small {
+        width: 50px;
+    }
+
+    .h4-footer-small {
+        font-size: 14px;
+        color: #fff;
+    }
+    
+    .p-footer-small {
+        color: #767676;
+        position: relative;
+        top: -10px;
+        font-size: 14px;
+    }
+
+    .footer-small-3 {
+        display: block;
+        position: relative;
+        bottom: 25px;
+        border-bottom: 1px solid #393939;
+        padding: 0 0 30px 0;
+    }
+
+    .h4-footer-small-3 {
+        font-size: 14px;
+        color: #fff;
+    }
+
+    .ul-footer-small-3  {
+        list-style-type: none;
+        display: inline-flex;
+        position: relative;
+        top: 20px;
+        right: 30px;
+        flex-wrap: wrap;
+    }
+
+    .img-footer-small-3 {
+        width: 17px;
+    }
+
+
+
+}
+
+@media (max-width: 576px) {
+
+    footer {
+        height: 620px;
+    }
+
+    .footer-small-2 {
+        flex-wrap: wrap;
+    }
+
+    .mlogof {
+        width: 30px;
+        padding-bottom: 20px;
+    }
+
+    .ul-footer  {
+        box-sizing: border-box;
+        font-size: 10px;
+        color: #767676;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        list-style: none;
+        gap: 10px;
+        position: absolute;
+        right: 0;
+        margin: auto;
+        bottom: 30px;
+    }
+}
+
+@media (max-width: 450px) {
+    .logos-small {
+        width: 30px;
+    }
+}
+
+@media (max-width: 350px) {
+    .logos-small {
+        width: 10px;
+    }
+}
+
+@media (max-width: 350px) {
+    footer {
+        height: 650px;
+    }
+}
+
+@media (max-width: 300px) {
+    footer {
+        height: 700px;
+    }
+}
+
+@media (max-width: 250px) {
+    footer {
+        height: 750px;
+    }
+}
+
+@media (max-width: 1260px) {
+    .main-div-background-tbs-1 {
+        width: 400px;
+        background-color: #fff;
+        height: 60px;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+        display: grid;
+        place-content: center;
+        cursor: pointer;
+    }
+
+    .main-div-background-tbs-ul {
+        list-style-type: none;
+        display: inline-flex;
+        position: absolute;
+        gap: 10px;
+        top: 7px;
+    }
+}
+
+@media (max-width: 1199px) {
+    .main-sliders-imgs {
+        width: 130px;
+    } 
+}
+
+@media (max-width: 992px) {
+    .main-sliders {
+        display: none;
+    }
+
+    .main-sliders-2nd {
+        display: block;
+    }
+
+    .main-sliders-2nd-container {
+        display: grid;
+        place-content: center;
+        padding-top: 20px;
+    }
+
+    .main-sliders-2nd {
+        background-color: #fff;
+        width: 100%;
+        height: 400px;
+    }
+
+    .main-sliders-imgs-2nd {
+        width: 110px;
+        height: 200px;
+    }
+
+    .main-sliders-div-2nd {
+        position: relative;
+        top: 10px;
+    }
+
+    .main-sliders-p-2nd {
+        font-size: 14px;
+        color: #151515;
+    }
+
+    .main-sliders-span-2nd {
+        font-size: 12px;
+        color: #767676;
+        position: relative;
+        top: -20px;
+    }
+}
+
+@media (max-width: 960px) {
+
+    .tbs-1 {
+        display: none;
+    }
+
+    .tbs-2 {
+        display: block;
+    }
+    
+    .main-div-background-tbs {
+        background-color: #fff;
+        width: 100%;
+        height: 80px;
+        position: absolute;
+        bottom: 0;
+        display: flex;
+        align-items: center;        
+    }
+
+    .main-div-background-tbs-ul {
+        position: relative;
+        top: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .main-div-background {
+        width: 100%;
+        height: 800px;
+        background-image: url(https://s3.amazonaws.com/com.marvel.terrigen/prod/mu-sellpage-infinity-dsk_3840x12801.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position-x: center;
+        display: grid;
+        align-items: center;
+        position: relative;
+        display: none;
+    }
+
+    .main-div-background-md {
+        background-color: #202020;
+        width: 100%;
+        height: 870px;
+        display: block;
+        position: relative;
+    }
+
+    .main-div-background-md-container {
+        position: relative;
+        top: 20px;
+    }
+
+    .main-div-background-md-background {
+        background-image: url(https://s3.amazonaws.com/com.marvel.terrigen/prod/mu-sellpage-infinity-dsk_3840x12801.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position-x: center center;
+        width: 100%;
+        height: 400px;
+    }
+
+    .marvel-inifiny-logo {
+        width: 95px;
+    }
+
+    .main-div-background-md-h4 {
+        color: #fff;
+        font-size: 26px;
+        font-weight: 500;
+        margin-top: 10px;
+    }
+
+    .main-div-background-md-p {
+        color: #fff;
+        font-size: 12px;
+    }
+
+    .main-div-background-btn {
+        font-size: 14px;
+        width: 140px;
+        height: 40px;
+        background-color: #e62429;
+        color: #fff;
+        border-radius: 20px 0 20px 0;
+        /* margin: 0 15px 15px 0; */
+        border: none;
+    }
+
+    .main-div-background-md-tbs-2 {
+        background-color: #fff;
+        width: 100%;
+        height: 40px;
+        position: absolute;
+        bottom: 0;
+        flex-wrap: wrap;
+    }
+
+    .main-div-background-md-tbs-2-h4 {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 2.5;
+        color: #767676;
+        position: absolute;
+    }
+
+    .main-div-background-tbs-2-ul {
+        list-style-type: none;
+        display: inline-flex;
+        gap: 10px;
+        line-height: 2.3;
+    }
+
+    .main-sliders-div-2nd-1 {
+        width: 170px;
+        /* background-color: #0040E5; */
+        position: relative;
+        top: 10px;
+    }
+
+    .main-sliders-imgs-2nd-1 {
+        width: 170px;
+    }
+
+    .main-sliders-p-2nd-1 {
+        font-size: 14px;
+        color: #151515;
+    }
+
+    .main-sliders-span-2nd-1 {
+        font-size: 12px;
+        color: #767676;
+        position: relative;
+        top: -20px;
+    }
+}
+
+@media (max-width: 838px) {
+    .main-double-background {
+        display: none;
+    }
+
+    .main-double-background-sm {
+        background-color: #fff;
+        width: 100%;
+        height: 440px;
+    }
+
+    .main-double-background-sm {
+        background-image: url(https://cdn.marvel.com/content/1x/20240124-newtomu_base_set_dsk.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .main-double-background-sm-2-content {
+        display: block;
+        background-color: #151515;
+        width: 100%;
+        height: 440px;
+        display: grid;
+        place-content: center;
+    }
+
+    .main-double-background-sm-2 {
+        display: block;
+    }
+}

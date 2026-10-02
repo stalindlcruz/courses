@@ -1,0 +1,39 @@
+/* class id etiquetas Jerarquias */
+ p {
+  background-color: black;
+  color: white;
+}
+
+.parrafo-test {
+  background-color: black;
+  color: white;
+}
+#change-style {
+  color: brown;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.estilos-idd {
+  background-color: black;
+  color: white;
+}
+
+p.estilos-idd span#change-style {
+  color: brown;
+  font-family: "Courier New", Courier, monospace;
+}
+.father {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
+
+.father .son {
+  width: 50px;
+  height: 50px;
+  background-color: black;
+}
+.one ~ .two {
+  background-color: black;
+  color: white;
+}

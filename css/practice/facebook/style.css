@@ -1,0 +1,425 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: #f0f2f5;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, '.SFNSText-Regular', sans-serif;
+    background-color: #fff;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+}
+
+.content-left {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, '.SFNSText-Regular', sans-serif;
+    /* background-color: rgb(108, 166, 216); */
+    width: 450px;
+    height: auto;
+    position: relative;
+    top: 120px;
+    margin-right: 120px;
+}
+
+.content-right {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, '.SFNSText-Regular', sans-serif;
+    position: relative;
+    top: 100px;
+}
+
+.right-p {
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    position: relative;
+    top: 120px;
+    text-align: center;
+}
+
+.fp1 {
+    width: 900px;
+    height: 25px;
+    /* background-color: aliceblue; */
+    margin-top: 20px;
+    border-bottom: 1px solid #73737366;
+    padding-bottom: 2px;
+}
+
+/* .f-line {
+    width: 950px;
+    height: 0.5px;
+    background-color: #737373;
+    opacity: 0.5;
+    position: absolute;
+    top: 580px;
+    left: 38px;
+} */
+
+.fp2 {
+    width: 900px;
+    height: 70px;
+    /* background-color: aliceblue; */
+    position: absolute;
+    margin-top: 60px;
+}
+
+.fp3 {
+    font-size: 12px;
+    color: #737373;
+    width: 900px;
+    height: 20px;
+    /* background-color: aliceblue; */
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 135px;
+}
+
+.btn-plus {
+    width: 25px;
+    height: 16px;
+    background-color: #f5f6f7;
+    color: #565a5f;
+    border: solid 1px #bec1c5;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+#logo-fb {
+    /* background-color: red; */
+    width: 300px;
+    height: auto;
+    position: relative;
+    left: -30px;
+}
+
+#left-p {
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    margin-top: -10px;
+}
+
+#form-1 {
+    background-color: #fff;
+    width: 350px;
+    height: 300px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 5px 5px 7px -9px;
+}
+
+#input-1, #input-2 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, '.SFNSText-Regular', sans-serif;
+    font-size: 17px;
+    display: block;
+    width: 300px;
+    border: 1px solid #dedede;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    position: relative;
+    top: 10px;
+    left: 5px;
+}
+
+#btn-login {
+    width: 322px;
+    height: 40px;
+    background-color: #0866ff;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+#forgot-psw {
+    font-size: 14px;
+    color: #0866ff;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+#line {
+    width: 95%;
+    height: 0.5px;
+    background-color: rgb(128, 128, 128);
+    opacity: 0.5;
+    position: relative;
+    top: 25px;
+    left: 8.5px;
+}
+
+#right-a {
+    font-weight: 600;
+    text-decoration: none;
+    color: #1c1e21;
+    cursor: pointer;
+}
+
+#modal {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    background-color: rgba(255, 250, 250, 0.711);
+    display: block;
+}
+
+#modal #form-reg {
+    height: 531px;
+    width: 432px;
+    background-color: #fff;
+    position: relative ;
+    margin: auto;
+    top: 15%;
+    box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.66);
+    border-radius: 5px;
+}
+
+#modal-upcontent {
+    /* background-color: aliceblue; */
+    padding: 10px;
+    border-bottom: solid 1px #1c1e2141;
+}
+
+#modal-upcontent #modal-h2 {
+    font-family: SFProDisplay-Bold, Helvetica, Arial, sans-serif;
+    color: #1c1e21;
+    font-size: 32px;
+    line-height: 38px;
+    margin-bottom: 1px;
+}
+
+#modal-upcontent #p1 {
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    color: #606770;
+    line-height: 24px;
+}
+
+#modal-upcontent #fa-xmark {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    /* margin-top: 10px; */
+    color: #464c54d3;
+    font-size: 25px;
+}
+
+#form-modal {
+    /* background-color: aliceblue; */
+    padding: 10px;
+    padding-top: 15px;
+}
+
+#form-modal #name, #lastname, #form-modal #phone-email, #password1 {
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    line-height: 16px;
+    padding: 10px;
+    background-color: #f5f6f7;
+    border: 1px solid #ccd0d5;
+    border-radius: 5px;
+}
+
+#form-modal #name, #lastname {
+    width: 180px;
+    height: 20px;
+}
+
+#form-modal #name {
+    margin-right: 5px;
+}
+
+#form-modal #phone-email, #password1 {
+    width: 391px;
+    display: block;
+    margin-top: 10px;
+}
+
+#birthday {
+    /* background-color: aliceblue; */
+    padding: 10px;
+    color: #606770;
+    font-weight: normal;
+}
+
+#birthday #birthday-p {
+    font-family: SFProText-Medium, Helvetica, Arial, sans-serif;
+    font-size: 12px;
+}
+
+#birthday #birthday-mark {
+    position: relative;
+    top: -15px;
+    left: 49px;
+}
+
+#calendar {
+    margin-top: -10px;
+}
+
+#months, #days, #year {
+    font-family: SFProText-Medium, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    background-color: #fff;
+    color: #1c1e21;
+    width: 125px;
+    height: 40px;
+    padding: 10px;
+    margin-right: 9px;
+    border-radius: 5px;
+    border: 1px solid;
+    border-color: #ccd0d5;
+}
+
+#gender {
+    /* background-color: aliceblue; */
+    margin-top: -5px;
+    padding: 10px;
+    font-weight: normal;
+}
+
+#gender #gender-p {
+    font-family: SFProText-Medium, Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    color: #606770;
+}
+
+#gender #gender-mark {
+    color: #606770;
+    position: relative;
+    top: -15px;
+    left: 45px;
+}
+
+#gender #gen-1, #gen-2, #gen-3 {
+    font-family: SFProText-Medium, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    background-color: #fff;
+    color: #1c1e21;
+    display: inline;
+    /* width: 1033330px; */
+    padding: 10px 42px 10px 20px;
+    /* background-color: #606770; */
+    margin-right: 9px;
+    border: 1px solid #ccd0d5;
+    border-radius: 5px;
+}
+
+#gender #gen1, #gen2, #gen3 {
+    position: relative;
+    left: 35px;
+    top: 2px;
+}
+
+#final-p1, #final-p2 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, '.SFNSText-Regular', sans-serif;
+    font-size: 11px;
+    color: #777;
+    margin: 10px;
+}
+
+#final-a1, #final-a2 {
+    text-decoration: none;
+    color: #385898;
+    cursor: pointer;
+}
+
+#btn-signup {
+    font-family: SFProDisplay-Bold, Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    background-color: #00a400;
+    color: #fff;
+    font-weight: 600;
+    padding: 10px;
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    position: relative;
+    left: 110px;
+    top: 5px;
+    cursor: pointer;
+}
+
+#f-ul, #f-p, li, a{
+    display: inline;
+    font-size: 12px;
+    display: inline;
+    text-decoration: none;
+    color: #737373;
+    padding: 2px;
+}
+
+#open-modal {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, '.SFNSText-Regular', sans-serif;
+    font-size: 17px;
+    width: 190px;
+    height: 40px;
+    background-color: #42b72a;
+    color: #fff;
+    border: none;
+    position: relative;
+    top: 345px;
+    left: -265px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#btn-login:hover {
+    background-color: #0866ff;
+    opacity: 0.8;
+    transition: 0.2s;
+}
+
+#forgot-psw:hover {
+    text-decoration: underline;
+}
+
+#final-a1:hover, #final-a2:hover {
+    text-decoration: underline;
+}
+
+#btn-signup:hover {
+    background-color: #008800;
+    opacity: 0.6;
+}
+
+#right-a:hover {
+    text-decoration: underline;
+}
+
+.btn-plus:hover {
+    background-color: #edeeef;
+}
+
+#open-modal:hover {
+    background-color: #369823;
+    transition: 0.5s;
+}
+
+#input-1:focus, #input-2:focus {
+    outline: 1px solid #3c86fb;
+}

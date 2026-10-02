@@ -1,0 +1,115 @@
+/* .div-1 {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border-radius: 50%; */
+    /* transform: translate(50px, 80px); */
+    /* transform: rotate(-100deg);  */
+    /* transform: scaleY(10);
+    transform: scaleX(10); */
+    /* transition: background-color 2s 5s; */
+    /* transition-property: background-color;
+    transition-duration: 2s;
+    transition-delay: 0.5s;
+    transition-timing-function: linear; */
+/* } */
+
+/* .div-1:hover {
+    background-color: aqua
+} 
+
+div {
+    width: 200px;
+    height: 200px;
+    background-color: green;
+
+}
+
+h2 {
+    color: white;
+    text-align: center;
+}
+
+p {
+    color: white;
+    text-align: center;
+} */
+
+/* div {
+    display: inline-block;
+    margin-top: 50px;
+} */
+
+/* div a {
+    color: black;
+    background-color: lightblue;
+    padding: 5px;
+    margin: 2px;
+    border-radius: 5px;
+    text-decoration: none;
+} */
+
+/* a:active {
+    background-color: green;
+    color: white;
+} */
+
+/* a:last-child()
+a:first-child */
+
+/* div a:nth-child(3) {
+    background-color: green;
+} */
+
+/* ul { */
+    /* display: inline; */
+    /* list-style: none;
+    
+} */
+
+/* ul li { */
+    /* text-decoration: none; */
+    /* display: inline-block; */
+    /* float: left;
+} */
+
+/* ul li a {
+    text-decoration: none;
+    padding: 5px;
+    margin: 3px;
+    color: black;
+} */
+
+/* ul li:nth-child(3) a {
+    background-color: green;
+    border-radius: 2px;
+} */
+
+.div-1 {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+.div-2 {
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+
+}
+
+@media print {
+    .div-1{
+        display: none;
+    }
+
+    #print-btn {
+        display: none;
+    }
+}
+
+
+@media screen and (width <= 500px) {
+    .div-1{
+     display: inline;
+    }
+}

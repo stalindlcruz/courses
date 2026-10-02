@@ -1,0 +1,42 @@
+.caja {
+    /* max-width: 50px; */
+    width: 100px;
+    height: 100px;
+    /* max-height: 20px; */
+    background-color: brown;
+    margin-bottom: 20px ;
+    /* padding: 15px; */
+/* outline-style: dashed;
+outline-color:aqua ; */
+}
+
+.caja-hija {
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    /* margin-bottom: 5px; */
+    margin: auto;
+}
+
+.caja  h2 {
+    text-align: right;
+    /* text-align: center;
+    text-align: left; */
+    
+}
+
+h2 {
+
+    text-decoration-line: overline underline line-through;
+    text-decoration-color: red;
+    text-decoration-style: double;
+    text-decoration-thickness: 5px;
+}
+
+p {
+    text-indent: 50px;
+    letter-spacing: 2px;
+    word-spacing: 10px;
+    text-shadow: 2px 2px 2px red;
+    
+}

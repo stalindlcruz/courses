@@ -1,0 +1,9 @@
+img {
+    width: 100%;
+    aspect-ratio: 638/317;
+}
+
+dialog {
+    background-color: aliceblue;
+    border-radius: 20px;
+}

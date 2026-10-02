@@ -1,0 +1,103 @@
+/* div[aria-busy="false"] { */
+    /* width: 200px;
+    height: 200px;ererererererer
+    background-color: black; */
+    /* opacity: 0.2; */
+/* } */
+
+/* form {
+    background-color: aquamarine;
+
+    width: calc(100 - 100%);
+    height: calc(100% - 200px);
+}
+
+input[type="text"] {
+    display: block;
+    margin-bottom: 5px !important;
+    border-style: solid;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    padding: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: red;
+    outline: none;
+}
+
+input[type="password"] {
+    display: block;
+    margin-bottom: 5px;
+    border-style: solid;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    padding: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: red;
+    outline: none;
+} */
+
+/* div {
+    position: relative;
+    top: 200px;
+    left: 500px;
+} */
+
+.div-1 {
+    /* width: calc(100% - 100px); */
+    width: 500px;
+    height: 250px;
+    background-color: #22ddc7;
+    border-radius: 50px;
+}
+
+.tittle {
+    color: #010d01;
+    position: relative;
+    left: 185px;
+    top: 50px;
+    text-decoration: underline;
+    font-family: "Cinzel Decorative", serif;
+    text-shadow: 2px 9px 9px;
+}
+
+form {
+    position: relative;
+    left: 150px;
+    top: 50px;
+}
+
+input {
+    display: block;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-family: "Corben", serif;
+}
+
+/* input[type="text"] {
+    
+}
+
+input[type="password"] {
+    
+} */
+
+#boton {
+    display: block;
+    position: relative;
+    left: 52px;
+    margin-top: 10px;
+    width: 70px;
+    border-radius: 30px;
+    border: none;
+    font-family: "Corben", serif;
+}
+
+#boton:hover {
+    color: #22ddc7;
+    font-family: "Cinzel Decorative", serif;
+    cursor: pointer;
+}
