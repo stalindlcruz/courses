@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas</title>
+</head>
+<body>
+    <!-- 
+        Las listas en HTML sirven para listar contenido. En funcion del tipo de contenido de nuestra lista tenemos 3 tipos de listas:
+
+        ul -> unordered list: se utiliza cuando el orden de los elementos no influye (lista de la compra).
+
+        ol -> ordered list: se utiliza cuando el orden de los elementos es importante (top 10).
+
+        Cada elemento de la lista se representa con la etiqueta <li>, tanto en las <ul> como en las <ol>.
+
+        dl -> definition list: se utiliza para hacer una lista de definiciones (diccionario).
+
+        Cada elemento de una lista lleva dos etiquetas:
+            dt -> Definition term: el termino que vamos a definir.
+            dd -> Definition description: La descripcion del termino.
+
+        Se pueden contruir listas anidadas teniendo en uno de los <li> otro <ul>/<ol> segun sea necesario.
+
+        Atributos de las listas:
+            ol ->
+                type: estilo de numeracion (1, A, a, I, i)
+                start: inicio de la secuencia (un numero).
+
+            ul ->
+                type: Estilo de los items (disc, square, circle).
+     -->
+    <header></header>
+    <nav></nav>
+    <main>
+        <h1>Listas</h1>
+        <nav>
+            <h1>Posts</h1>
+            <ul>
+                <li>
+                    <a href="/paginas/blog.html#post-1">Post 1</a>
+                </li>
+                <li>
+                    <a href="/paginas/blog.html#post-2">Post 2</a>
+                </li>
+                <li>
+                    <a href="/paginas/blog.html#post-3">Post 3</a>
+                </li>
+                <li>
+                    <a href="/paginas/blog.html#post-4">Post 4</a>
+                </li>
+                <li>
+                    <a href="/paginas/blog.html#post-5">Post 5</a>
+                </li>
+                <li>
+                    <a href="/paginas/blog.html#post-6">Post 6</a>
+                </li>
+            </ul>
+        </nav>
+
+        <h2>Lista no ordenada</h2>
+        <ul>
+            <li>Pan</li>
+            <li>Huevos</li>
+            <li>Leche</li>
+        </ul>
+
+        <h2>Lista ordenada</h2>
+        <ol>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ol>
+
+        <h2>Lenguajes para el desarrollo web</h2>
+        <dl>
+            <dt>HTML:</dt>
+            <dd>HyperText Markup Languague, es un lenguaje de marcado que se usa para estructurar datos en una pagina web.</dd>
+        </dl>
+        <dl>
+            <dt>CSS:</dt>
+            <dd>Cascade Style Sheets, es un lenguaje de diseno que se utiliza para dar estilos al HTML.</dd>
+        </dl>
+        <dl>
+            <dt>JavaScript:</dt>
+            <dd>Es un lenguaje de programacion para dar interactividad a un sitio web.</dd>
+        </dl>
+        <section>
+            <h2>Atributos de las listas</h2>
+            <ul type="square">
+                <li>Item</li>
+                <li>Item</li>
+                <li>Item</li>
+            </ul>
+            
+            <ol type="A" start="2">
+                <li>Item</li>
+                <li>Item</li>
+                <li>Item</li>
+            </ol>
+        </section>
+    </main>
+    <aside></aside>
+    <footer></footer>
+</body>
+</html>

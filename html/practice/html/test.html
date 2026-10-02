@@ -1,0 +1,141 @@
+<!-- Define la version de HTML utilizada en el documento. -->
+<!DOCTYPE html>
+
+<!-- Representa la raiz del documento HTML ( Inicio del documento HTML ). -->
+<html lang="en">
+
+    <!-- Contiene meta informacion del documento como titulos, enlaces a estilos, links, recursos, etc. -->
+<head>
+    <title>Document</title> <!-- Define el titulo de la pagina que se muestra en la barra de titulo del navegador. -->
+</head>
+<body>
+    <!-- Representa todo el contenido de nuestra pagina web. -->
+    
+    <!-- Define la cabecera de un documento, comunmente contiene encabezados, logotipos o informacion introductoria. -->
+    <header></header>
+
+    <!-- Envuelve enlaces de navegacion, indicando que es una seccion de navegacion, generalmente utilizada para menus. -->
+    <nav></nav>
+
+    <!-- Contiene el contenido principal de un documento, excluyendo encabezados, pies de pagina y barras laterales. -->
+    <main>
+        <!-- Define una seccion en un documento. -->
+        <section>
+            <!-- No tiene impacto visual en el navegador, especifica contenido independiente y autonomo. debe tener sentido por si solo
+            y debe ser posible distribuirlo independientemente del resto del sitio. Ejemplos: Publicacion en el foro, noticia, etc. -->
+            <article>
+                <!-- Las etiquetas de <h1> - <h6> se utilizan para definir encabezados en HTML, <h1> Define el titulo mas importante
+                y <h6> define el encabezado menos importante. Nota: Solo utilice un <h1> por pagina; este debe representar el
+                titulo/asunto principal de toda la pagina. Ademas, no se salte los niveles de encabezado: comience con <h1>,
+                luego use <h2>, y asi sucesivamente. -->
+                <h1></h1>
+                <h2></h2>
+                <h3></h3>
+                <h4></h4>
+                <h5></h5>
+                <h6></h6>
+                <!-- La etiqueta <p> define un parrafo. los navegadore agregan automaticamente una unica linea en blanco
+                antes y despues de cada elemento <p>, es recomendable utilizar CSS para aplicar estilos a los parrafos. -->
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur laboriosam necessitatibus ratione neque? Esse, cum eaque hic totam culpa repudiandae facere magni iusto exercitationem ullam odio placeat deserunt sunt impedit? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil nobis, natus, totam nulla eius quam aliquam beatae id nesciunt enim corporis asperiores quisquam voluptatem magni officiis quis impedit blanditiis quaerat! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum minima sint quibusdam beatae animi asperiores repellat dolorum in nesciunt explicabo numquam ullam repudiandae excepturi voluptas, optio necessitatibus molestias possimus velit! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem fuga a debitis labore sunt? Adipisci ipsa rem corrupti eveniet ratione voluptate consequatur non earum? Officia a id error culpa corrupti! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis ratione harum fugit esse doloremque expedita eveniet nobis laborum maxime quos dignissimos enim vel ea obcaecati, provident earum officiis explicabo minus.</p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad suscipit, nobis cum exercitationem molestiae recusandae vitae excepturi consequatur pariatur! Dolorum quasi obcaecati consectetur ipsum eveniet laborum nisi asperiores tenetur officiis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis beatae odio, sunt saepe quod doloremque numquam corrupti? Id autem ipsum amet, quos, assumenda deserunt saepe reiciendis, voluptate praesentium minima ratione.
+                </p>
+
+                <!-- La etiqueta <a> define un hipervinculo, que se utiliza para vincular de una pagina a otra. el atributo
+                mas importante del elemento <a> es el atributo href que indica el destino del enlace. De forma predeterminada,
+                los enlaces apareceran de la siguiente manera en todos los navegadores:
+                
+                - Un enlace no visitado esta subrayado y en azul.
+                - Un enlace visitado esta subrayado y en color violeta.
+                - Un enlace activo esta subrayado y en rojo.
+                
+                Tips and notes: 
+                - Si la etiqueta <a> no tiene ningun atributo href, es solo un marcador de posicion para un hipervinculo. 
+                - Una pagina vinculada normalmente se muestra en la ventana actual del navegador, a menos que 
+                especifique otro destino.
+                - Utilice CSS para aplicar estilo a los enlaces: enlaces CSS y botones CSS. -->
+
+                <a href=""></a>
+                <!-- La etiqueta <span> es un contenedor en linea que se utiliza para marcar una parte de un texto o una
+                parte de un documento. Con la etiqueta <span> se puede disenar facilmente con CSS o manipular con JavaScript
+                utilizando el atributo class o id. Es muy parecida al elemento <div>, pero <div> es un elemento a nivel de
+                bloque y <span> es un elemento en linea. -->
+                <span></span>
+
+                <!-- Se utiliza generalmente para agrupar contenidos o para agrupar mas etiquetas. -->
+                <div>
+                
+                    <!-- La etiqueta <img> se utiliza para incrustar una imagen en una pagina HTML. Tecnicamente, las imagenes
+                no se insertan en una pagina web; Las imagenes estan vinculadas a una pagina web. La etiqueta <img> crea
+                un espacio de retencion para la imagen a la que se hace referencia.
+            
+                La etiqueta <img> tiene dos atributos obligatorios:
+                - src: especifica la ruta de la imagen.
+                - alt: especifica un texto alternativo para la imagen, si la imagen por algun motivo no se puede mostrar.
+                
+                Nota: Ademas especifique siempre el ancho y el alto de una imagen. Si no se especifica el ancho y el alto,
+                la pagina puede parpadear mientras se carga la imagen.
+            
+                Es recomendable para vincular una imagen a otro documento, simplemente anidar la etiqueta <img> dentro de
+                una etiqueta <a>. -->
+                <img src="" alt="">
+
+                <!-- La etiqueta <video> se utiliza para incrustar contenido de video en un documento, como un clip de pelicula
+                u otras secuencias de video. La etiqueta de video contiene una o mas etiquetas <source> con diferentes
+                fuentes de video. el navegador elegira la primera fuente que admita. El texto entre las etiquetas
+                <video> y </video> solo se mostrara en navegadores que no admitan el elemento <video>. Hay tres formatos
+                de video compatibles con HTML: MP4, WebM Y OGG. -->
+                <video src=""></video>
+                
+                <!-- La etiqueta <audio> se utiliza para incrustar contenido sonoro en un documento, como musica u otras
+                transmisiones de audio. La etiqueta de <audio> contiene una o mas etiquetas <source> con diferentes
+                fuentes de audio. el navegador elegira la primera fuente que admita. El texto entre las etiquetas
+                <audio> y </audio> solo se mostrara en navegadores que no admitan el elemento <audio>. Hay tres formatos
+                de audio compatibles con HTML: MP3, WAV Y OGG. -->
+                <audio src=""></audio>
+
+                <!-- La etiqueta <iframe> especifica un marco en linea. Un marco en linea se utiliza para incrustar otro
+                    documento dentro del documento HTML actual. Es recomendable utlizar CSS para aplicar estilo y tambien
+                    es buena practica incluir siempre un atributo de titulo para el archivo <iframe>. Los lectores de
+                    pantalla lo utilizan para leer cual es el contenido <iframe>. -->
+                <iframe src="" frameborder="0"></iframe>
+                </div>
+            </article>
+        </section>
+        <hr>
+        <section>
+            <!-- Por defecto tiene el atributo target=_"self"" -->
+            <a target="_blank" href="https://www.google.com">Go to Google</a>
+            <br>
+            <br>
+            <a target="_blank" href="https://www.amazon.com">Go to Amazon</a>
+        </section>
+        <br>
+        <section>
+            <img src="media/images/coffee.png" alt="coffee" width="400">
+        </section>
+        <br> <br>
+        <section>
+            <form action="/formulario" method="post">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="write your name here...">
+                <br> <br>
+                <label for="lastname">Last Name</label>
+                <input value="De La Cruz" type="text" id="lastname" name="lastname" placeholder="write your last name here...">
+                <br> <br>
+                <label for="comment">Comment:</label>
+                <br>
+                <textarea name="comment" id="comment" cols="30" rows="10" placeholder="Write a comment here..."></textarea>
+                <br>
+                <input type="submit" name="" id="">
+            </form>
+        </section>
+    </main>
+
+    <!-- Define contenido relacionado, pero secundario, como barras laterales, anuncios o contenido relacionado. -->
+    <aside></aside>
+
+    <!-- Contiene informacion de pie de pagina, como derechos de autor, enlaces o detalles de contacto. -->
+    <footer></footer>
+</body>
+</html>

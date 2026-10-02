@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tipos de input</title>
+</head>
+<!-- 
+    Input type:
+        button -> Se comporta igual que un boton <button>.
+        submit -> Se utiliza para enviar el formulario.
+            
+        date -> Se utiliza para introducir una fecha.
+        datetime -> obsoleto.
+        datetime-local -> Fecha y hora, no funciona en firefox.
+        time -> Se utiliza para introducir una hora.
+            TIP:
+                *Se recomienda usar date y time para seleccionar fecha y hora.
+                hidden -> Campo oculto, puede contener valor pero no se mostrara.
+        month -> Se utiliza para introducir un mes.
+        week -> Se utiliza para introducir el numero de semana del ano.
+            
+        search -> Se utiliuza para las barras de busqueda.
+        tel -> Se utiliza para introducir numeros telefonicos.
+        email -> Se utiliza para introducir un email.
+        password -> Se utiliza para contrasenas.
+        url -> Se utiliza para introducir urls.
+        
+        color -> Se utiliza para especificar un color.
+        number -> Se utiliza para valores numericos.
+        range -> Se utiliza para establecer un rango.
+        reset -> Se utiliza para resetear el formulario.
+        text -> Valor por defecto.
+ -->
+<body>
+    <header></header>
+    <nav></nav>
+    <main>
+        <form action="">
+            <input type="text">
+            <input type="submit" value="Enviar Input">
+            <button>Enviar</button>
+        </form>
+        <form action="">
+            <input type="date">
+            <input type="datetime">
+            <input type="datetime-local">
+            <input type="date">
+            <input type="time">
+            <input type="month">
+            <input type="week">
+        </form>
+        <form action="">
+            <div>
+                <label for="">search
+                    <input type="search">
+                </label>
+            </div>
+            <div>
+                <label for="">telefono
+                    <input type="tel">
+                </label>
+            </div>
+            <div>
+                <label for="">email
+                    <input type="email">
+                </label>
+            </div>
+            <div>
+                <label for="">password
+                    <input type="password">
+                </label>
+            </div>
+            <div>
+                <label for="">url
+                    <input type="url">
+                </label>
+            </div>
+        </form>
+        <form action="">
+            <input type="color">
+            <input type="number">
+            <input type="range" step="5" min="0" max="20">
+            <input type="reset">
+            <input type="text">
+        </form>
+    </main>
+    <aside></aside>
+    <footer></footer>
+</body>
+</html>

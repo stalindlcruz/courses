@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+</head>
+
+<!-- 
+    Enlances: conocidos tambien por links popularmente. Su objetivo es conectar una pagina web con otra pagina web, con un recurso tanto interno como externo, o con otro sitio web.
+
+    Tienen el atributo href, donde especificamos la ruta del recurso o sitio que queremos obtener.
+
+    Tambien tiene  el atributo target, que configura como queremos visualizar el recurso o sitio que solicitamos.
+
+    Rutas absolutas:
+        Tienen un protocolo, http o https y son unicas en la red, se suelen utilizar para rutas externas.
+
+    Rutas relativas:
+        Pueden ser relativas al punto donde nos encontramos o relativas a la raiz del proyecto.
+
+        No usan protocolo.
+
+        Si el recurso se encuentra al mismo nivel (en la misma carpeta) pondremos unicamente el nombre del archivo.
+
+        Si necesitamos salir de la carpeta actual usaremos ../ y se pone uno por cada nivel (carpeta) de la que queramos salir.
+
+        Atributos de los enlaces:
+            target: define donde se abrira el recurso solicitado. Por norma general siempre que useis rutas absolutas pondreis como valor "_blank". Su valor por defecto es "_self".
+
+            download: Atributo booleano, sirve para descargar el recurso solicitado. (IMPORTANTE), el recurso debe estar en tu mismo servidor.
+ -->
+
+<body>
+    <nav>
+        <h1>Posts</h1>
+        <ul>
+            <li>
+                <a href="../paginas/blog.html#post-1">Post 1</a>
+            </li>
+            <li>
+                <a href="../paginas/blog.html#post-2">Post 2</a>
+            </li>
+            <li>
+                <a href="../paginas/blog.html#post-3">Post 3</a>
+            </li>
+            <li>
+                <a href="../paginas/blog.html#post-4">Post 4</a>
+            </li>
+            <li>
+                <a href="../paginas/blog.html#post-5">Post 5</a>
+            </li>
+            <li>
+                <a href="../paginas/blog.html#post-6">Post 6</a>
+            </li>
+        </ul>
+    </nav>
+    <h1>Home</h1>
+    <a href="contacto.html">Ir a Contacto</a> <br>
+    <a href="https://google.com" target="_blank">Ir a google</a> <br>
+    <a href="../atributos-comunes.html">Ir a atributos-comunes</a> <br>
+    <a href="../">Inicio del proyecto principal</a> <br>
+    <a href="../assets/music/RubinskyRbk-HermanoMío.mp3" download>Download-RubinskyRbk-HermanoMío</a>
+</body>
+</html>
