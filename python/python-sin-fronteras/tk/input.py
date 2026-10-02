@@ -1,0 +1,78 @@
+# from tkinter import *
+
+# root = Tk()
+# root.title('Hola Mundo')
+# root.geometry('500x500')
+
+# e = Entry(root, width=40)
+# e.pack()
+# e.insert(0, "Ingresa un texto:")
+
+# def click():
+#     texto = e.get()
+#     l.configure(text=texto)
+
+# btn = Button(root, text='click', command=click)
+# btn.pack()
+
+# l = Label(root, text='Texto de la etiqueta')
+# l.pack()
+
+# root.mainloop()
+
+
+# from tkinter import *
+
+# root = Tk()
+# root.title('Hola Mundo')
+# root.geometry('500x500')
+
+# e = Entry(root, width=40)
+# e.pack()
+# e.insert(0, "Ingresa un texto:")
+
+# def click():
+#     texto = e.get()
+#     l = Label(root, text=texto)
+#     l.pack()
+#     e.delete(0, END)
+#     # l.configure(text=texto)
+
+# btn = Button(root, text='Click', command=click)
+# btn.pack()
+
+# # l = Label(root, text='Texto de la etiqueta')
+# # l.pack()
+
+# root.mainloop()
+
+
+from tkinter import *
+
+root = Tk()
+root.title('Hola Mundo')
+root.geometry('500x500')
+
+e = Entry(root, width=40)
+e.pack()
+e.insert(0, "Ingresa un texto:")
+
+def click():
+    texto = e.get()
+    textvariable.set(texto)
+    valor = textvariable.get()
+    print(valor)
+    # l = Label(root, text=texto)
+    # l.pack()
+    e.delete(0, END)
+    # l.configure(text=texto)
+
+btn = Button(root, text='Click', command=click)
+btn.pack()
+
+textvariable = StringVar()
+
+l = Label(root, textvariable=textvariable)
+l.pack()
+
+root.mainloop()

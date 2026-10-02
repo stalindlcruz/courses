@@ -1,0 +1,72 @@
+Una variable es un elemento que se emplea para almacenar y hacer referencia a otro valor. Gracias a las variables es posible crear "programas genéricos", es decir, programas que funcionan siempre igual, independientemente de los valores concretos utilizados.
+
+A nuestras variables le podemos dar el nombre que más nos guste, pero debemos de tratar de ponerle un nombre que sea representativa con el valor que esta vaya a contener.
+
+Example:
+
+email	= 'chanchito@feliz.com'
+
+Phone = '702-887-2134'
+
+email and phone are variables.
+
+Diferentes forma de darle nombre a las variables:
+
+mivar = 'chanchito'
+
+_mi_var = 'chanchito'	No se pueden usar guiones, ni espacios para definir variables, pero sí 			
+			guiones bajos.
+
+miVar = 'chanchito'	(CamelCase)
+
+MIVAR = 'chanchito'	por lo general se usa para asignar constantes o variables de las cuales no 			
+			puede cambiar su valor.
+
+
+mivar234 = 'chanchito'	También se le pueden asignar números, pero siempre y cuando se encuentren 		
+			después de una letra.
+
+No se pueden crear variables que empiecen con números.
+
+a, b, c, = 'lala', 'lele', 'lili'
+print(a, b, c)
+
+Diferentes variables con un mismo valor:
+
+valor1 = valor2 = valor3 = 'chanchito feliz'
+
+print(valor1, valor2, valor3)
+------------------------------------------------------------------------------------------
+Concatenación de palabras es cuando uno tiene diferentes palabras y luego las uno para que sea una variable.
+
+inicio = 'Hola'
+final = 'Mundo'
+
+print(inicio + final)
+---------------------------------------------------------------------------------------
+tipos de datos
+
+string: una palabra o una frase, se pueden definir con comillas simples o dobles.
+
+Entero: números enteros (20).
+
+Float: números con decimales.
+
+palabra = 'hola mundo'  #string
+oración = "hola mundo comillas dobles"  #string
+
+entero = 20 #integer
+ConDecimales = 20.2 #float
+
+para definir números complejos tenemos que usar la convención de la letra j.
+Ejemplo, coloco un numero y a continuación le coloco la letra j.
+
+complejo = 2j
+---------------------------------------------------------------------------------------
+Tipos de datos
+
+Para ordenar una lista estas tienen que tener los mismos tipos de datos cuando estemos utilizando el método de sort, no se puede ordenar string con números.
+
+Las tuplas a diferencia de las listas, una ves tú las creas no puedes modificarla, vas a tener que generar una copia de estas en caso que quieras cambiarla.
+
+Para indicar que estamos trabajando con una tupla se usan paréntesis y para las listas paréntesis cuadrado.

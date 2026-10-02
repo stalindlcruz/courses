@@ -1,0 +1,871 @@
+/* body {
+    background-color: #eeeeee;
+    color: #ff0000;
+} */
+
+/* para seleccionar los id utilizamos # & para seleccionar las class utilizamos . */
+
+/* body {
+    background-color: #efefef;
+}
+
+#parrafo {
+    color: #ff0000;
+}
+
+.etiqueta {
+    color: #00aa00;
+}
+
+.etiqueta3 {
+    color: teal;
+} */
+
+
+/* body {
+    background-color: #eee;
+}
+
+.caja {
+    margin: 8px;
+    padding: 8px;
+    border-style: outset;
+    border-width: 8px;
+    border-color: #faa;
+    border-left: 8px solid #afa;
+    border-top: 8px inset #faa;
+    border-right: 8px solid #abb;
+    border-bottom: 8px inset #add;
+    background-color: #aaf;
+    border-radius: 8px;
+    height: 70px;
+    width: 100px;
+    color: darkblue;
+} */
+
+
+/* body {
+    background-color: #eee;
+}
+
+.caja {
+    background-color: #fff;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ccc;
+    border-radius: 2px;
+    border-top: solid 0px;
+}
+
+.header {
+    padding: 10px;
+    border-bottom: solid 1px #eee;
+}
+
+.contenido {
+    padding: 10px;
+}
+
+.footer {
+    padding: 10px;
+    border-bottom: solid 1px #eee;
+}
+
+.primario {
+    background-color: #0090ff;
+    padding: 5px;
+    border: 0px;
+    color: #fff;
+}
+
+.secundario {
+    background-color: #aaa;
+    padding: 5px;
+    border: 0px;
+    color: #fff;
+} */
+
+
+/* body {
+    background-color: #eee;
+}
+
+p {
+    font-family: "Times New Roma";
+    font-family: "Monaco";
+    font-weight: normal;
+    font-weight: bold;
+    font-weight: 900;
+    font-weight: 800;
+    font-weight: 500;
+    font-style: normal;
+    font-style: italic;
+    font-size: 20px;
+    font-size: 1.5em;
+    color: #222fff;
+    text-align: center;
+    text-align: right;
+    text-align: justify;
+    text-align: left;
+    text-decoration: underline;
+    text-indent: 20px;
+    line-height: 1.5;
+    word-spacing: 10px;
+    text-shadow: 4px 2px 2px rgba(0, 0, 0, 0.2);
+    text-shadow: 4px 2px 2px lightblue;
+} */
+
+/* a {
+    text-decoration: none;
+    text-decoration: overline;
+    text-decoration: line-through;
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-transform: lowercase;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+} */
+
+
+/* body {
+    background-color: #eee;
+}
+
+a {
+    color: hotpink;
+    background-color: #f00;
+    border: solid 1px #d00;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+a:link {
+    color: pink;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: gray;
+    text-decoration: underline;
+    background-color: lightblue;
+}
+
+a:active {
+    color: black;
+} */
+
+
+/* body {
+    background-color: #eee;
+}
+
+ul {
+    list-style-type: none;
+    background-color: #fff;
+    border: solid 1px #ddd;
+    border-radius: 4px;
+    padding-left: 0px;
+}
+
+li {
+    border-bottom: solid 1px #ddd;
+    padding: 15px;
+}
+
+ul li {
+    list-style-type: circle;
+    list-style-type: square;
+    list-style-type: upper-roman;
+    list-style-type: lower-alpha;
+} */
+
+
+/* body {
+    background-color: #eee;
+}
+
+table {
+    width: 100%;
+    background-color: white;
+    border-collapse: collapse;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+table th {
+    background-color: #4caf50;
+    color: white;
+    text-align: left;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+} */
+
+
+/* body {
+    background-color: #eee;
+}
+
+#invisible {
+    display: none;
+}
+
+span {
+    display: block;
+} */
+
+
+/* body {
+    background-color: #eee;
+}
+
+p {
+    max-width: 350px;
+    background-color: #f00;
+    margin: auto;
+    position: relative;
+    position: fixed;
+    left: 15px;
+    left: -15px;
+    right: 15px;
+    top: 0px;
+    bottom: 0px;
+} */
+
+
+/* body {
+    background-color: #eee;
+}
+
+#over {
+    width: 100px;
+    height: 100px;
+    overflow: visible;
+    overflow: hidden;
+    overflow: scroll;
+    overflow: auto;
+    overflow-y: auto;
+    overflow-x: auto;
+    overflow-x: scroll;
+} */
+
+
+/* body {
+    background-color: #eee;
+}
+
+img {
+    float: left;
+    float: right;
+    opacity: 0.3;
+}
+
+img:hover {
+    opacity: 0.8;
+}
+
+div p {
+    color: #f00;
+} */
+
+
+/* body {
+    background-color: #eee;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+li:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.active {
+    background-color: #4caf50;
+}
+
+.content {
+    margin-top: 50px;
+} */
+
+
+/* body {
+    background-color: #eee;
+}
+
+.dropdown-btn {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    position: relative;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-btn {
+    background-color: #3e8e41;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+} */
+
+
+/* body {
+    background-color: #eee;
+}
+
+.box {
+    background-color: white;
+    padding: 12px 20px;
+    border-radius: 4px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4caf50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+} */
+
+
+/* body {
+    background-color: #eee;
+}
+
+.fondo {
+    height: 400px;
+    background-color: lightgreen;
+    background-image: url(https://placekitten.com/200/300);
+    background-repeat: no-repeat;
+    background-repeat: repeat-x;
+    background-repeat: repeat-y;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-position: right top;
+    background-position: left bottom;
+    background-position: left top;
+    background-attachment: fixed;
+    background-attachment: scroll;
+    background-size: cover;
+    background: lightgreen url(https://placekitten.com/200/300) no-repeat left top fixed;
+    background-size: cover;
+} */
+
+/* body {
+    background-color: #eee;
+}
+
+.fondo {
+    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 255, 0.3);
+    background-color: hsl(120, 60%, 70%, 0.4);
+    opacity: 0.3;
+} */
+
+
+/* body {
+    background-color: #eee;
+}
+
+.fondo {
+    background-image: linear-gradient(red, yellow);
+    background-image: linear-gradient(white, #ccc);
+    background-image: linear-gradient(to right, lightblue, blue);
+    background-image: linear-gradient(to left, lightblue, blue);
+    background-image: linear-gradient(to top, lightblue, blue);
+    background-image: linear-gradient(to bottom, lightblue, blue);
+    background-image: linear-gradient(to bottom right, lightblue, blue);
+    background-image: linear-gradient(to top left, lightblue, blue);
+    background-image: linear-gradient(-15deg, lightblue, blue);
+    background-image: linear-gradient(-25deg, red, blue, yellow);
+    background-image: linear-gradient(-0deg, red, blue, yellow, violet, lightblue, tomato);
+    background-image: linear-gradient(-0deg, rgba(255, 0, 0, 0.2), tomato);
+    background-image: repeating-linear-gradient(-0deg, rgba(255, 0, 0, 1) 10%, tomato 20%);
+} */
+
+
+/* body {
+    background-color: #eee;
+}
+
+.box {
+    box-shadow: 2px 2px 4px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3) inset;
+}
+
+.text {
+    color: white;
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3);
+} */
+
+
+/* body {
+    background-color: #eee;
+}
+
+.box {
+    position: relative;
+    left: 50px;
+    top: 50px;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.2);
+    transform: rotate(20deg);
+    transform: rotate(-45deg);
+    transform: translate(50px, 10px);
+    transform: scale(1.5, 1.5);
+    transform: scaleX(1.05);
+    transform: scaleY(1.05);
+    transform: skew(-10deg);
+    transform: skewX(-25deg);
+    transform: skewY(-25deg);
+    transform: skew(25deg, 10deg);
+    transform: rotate(25deg);
+    transform: rotateX(60deg);
+    transform: rotateY(52deg);
+} */
+
+
+/* Transiciones animadas */
+
+/* body {
+    background-color: #eee;
+}
+
+.box {
+    position: relative;
+    left: 50px;
+    top: 50px;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.2);
+    transition: 0.4;
+    transition-delay: 0.2s;
+}
+
+.box:hover {
+    width: 150px;
+    transform: scale(1.05, 1.05);
+    background-color: rgba(140, 187, 175, 0.1);
+} */
+
+
+/* body {
+    background-color: #eee;
+}
+
+.box {
+    background-color: white;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2);
+    margin: 10px 15px;
+    width: 200px;
+    padding: 10px 15px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.red {
+    border-left: solid 2px red;
+}
+
+.red:hover {
+    transform: scale(1.05, 1.05);
+}
+
+.green {
+    border-left: solid 2px green;
+}
+
+.green:hover {
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.blue {
+    border-left: solid 2px blue;
+}
+
+.blue:hover {
+    background-color: #eef;
+} */
+
+
+/* body {
+    background-color: #eee;
+}
+
+.grid {
+    display: grid;
+    display: inline-grid;
+    grid-template-rows: 50px 100px;
+    grid-template-columns: 90px 50px 120px;
+    grid-template-columns: 1fr 2fr 3fr;
+    grid-template-columns: 2rem 20% 1fr 2fr;
+}
+
+.element {
+    background-color: red;
+} */
+
+
+/* body {
+    background-color: #eee;
+}
+
+.grid {
+    display: grid;
+    grid-template-rows: minmax(100px, auto);
+    grid-template-rows: repeat(2, 50%);
+    grid-template-columns: minmax(auto, 50%) 1fr 3rem;
+    grid-template-columns: 30px repeat(3, 1fr) 15px;
+    grid-row-gap: 20px;
+    grid-column-gap: 10px;
+    grid-gap: 20px 10px;
+    grid-gap: 15px;
+}
+
+.element {
+    background-color: red;
+}
+
+.header {
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column: 1 / 6;
+    grid-row: 1 / 3;
+} */
+
+
+/* body {
+    background-color: #eee;
+}
+
+.grid {
+    display: grid;
+    grid-template-rows: [row-1-inicio] 50px [row-2-inicio] 50px [row-3-fin];
+    grid-template-columns: [col-1-inicio] 1fr [col-2-inicio] 1fr [col-3-inicio] 1fr [col-4-fin];
+    grid-gap: 15px;
+}
+
+.element {
+    background-color: red;
+}
+
+.header {
+    grid-column: col-1-inicio / col-4-fin;
+    grid-row: row-1-inicio / row-3-fin;
+} */
+
+
+/* body {
+    background-color: #eee;
+}
+
+.grid {
+    display: grid;
+    grid-template-rows: repeat(2, [row-inicio] 50px [row-fin]);
+    grid-template-columns: repeat(3, [col-inicio] 1fr [col-fin]);
+    grid-gap: 15px;
+}
+
+.element {
+    background-color: red;
+}
+
+.header {
+    grid-column: col-inicio / col-fin 3;
+    grid-row: row-inicio / row-fin 3;
+} */
+
+
+/* body {
+    background-color: #eee;
+}
+
+.grid {
+    display: grid;
+    grid-template-areas: "header header"
+                        "content sidebar"
+                        "footer footer";
+    grid-template-rows: 150px 1fr 100px;
+    grid-template-columns: 1fr 200px;
+    grid-auto-rows: 140px;
+    grid-auto-flow: column;
+    grid-auto-flow: row;
+    justify-items: start;
+    justify-items: center;
+    justify-items: end;
+    justify-items: stretch;
+    justify-items: start;
+    justify-items: stretch;
+    align-items: stretch;
+    align-items: end;
+}
+
+.header {
+    grid-column: col-inicio / col-fin 3;
+    grid-row: row-inicio / row-fin 3;
+}
+
+.red {
+    background-color: red;
+}
+
+.item-1 {
+    justify-self: center;
+    justify-self: end;
+    justify-self: start;
+    justify-self: stretch;
+    align-self: center;
+    align-self: end;
+    align-self: start;
+    align-self: center;
+    justify-self: center;
+} */
+
+
+/* html {
+    height: 100%;
+}
+
+body {
+    background-color: #eee;
+    margin: 0;
+    height: 100%;
+}
+
+.grid {
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-columns: repeat(4, 50px);
+    grid-template-rows: repeat(3, 50px);
+    grid-gap: 5px;
+    justify-content: start;
+    justify-content: end;
+    justify-content: center;
+    justify-content: space-around;
+    justify-content: space-between;
+    justify-content: space-evenly;
+    justify-content: start;
+    align-content: start;
+    align-content: end;
+    align-content: center;
+    align-content: space-around;
+    align-content: space-between;
+    align-content: space-evenly;
+}
+
+.red {
+    background-color: red;
+} */
+
+
+/* .flex {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-direction: column-reverse;
+} */
+
+
+/* body {
+    width: 200px;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    justify-content: flex-end;
+    justify-content: center;
+    justify-content: space-between;
+    justify-content: space-around;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    align-items: flex-end;
+    align-items: center;
+    align-items: stretch;
+    align-items: flex-start;
+}
+
+.red {
+    background-color: red;
+} */
+
+
+/* body {
+    width: 200px;
+}
+
+.flex {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    height: 200px;
+    align-content: flex-start;
+    align-content: flex-end;
+    align-content: center;
+    align-content: stretch;
+    align-content: space-between;
+    align-content: space-around;
+    align-content: space-evenly;
+}
+
+.red {
+    background-color: red;
+} */
+
+
+/* body {
+    width: 200px;
+}
+
+.flex {
+    display: flex;
+    flex-flow: row wrap;
+    height: 200px;
+}
+
+.red {
+    background-color: red;
+}
+
+.primero {
+    order: 1;
+}
+
+.segundo {
+    order: 2;
+}
+
+.tercero {
+    order: -1;
+} */
+
+
+.flex {
+    display: flex;
+    flex-flow: row wrap;
+    height: 200px;
+}
+
+.red {
+    background-color: red;
+}
+
+.primero {
+    flex-grow: 1;
+    flex-basis: 120px;
+    flex: 1 120px;
+}
+
+.tercero {
+    flex-grow: 2;
+    align-self: auto;
+    align-self: flex-start;
+    align-self: flex-end;
+    align-self: center;
+    align-self: baseline;
+    align-self: stretch;
+}
+
+.segundo {
+    flex-grow: 1;
+}
+
+
+/* float, clear and vertical-align, no tienen absolutamente ningun efecto dentro
+dentro de los elementos de flex. */
