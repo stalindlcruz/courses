@@ -1,0 +1,29 @@
+---
+import FooterComponent from "../components/FooterComponent.astro";
+import HeaderComponent from "../components/HeaderComponent.astro";
+import "../styles/global.css";
+
+interface Props {
+  tittle?: string;
+}
+
+const { tittle } = Astro.props as Props;
+
+console.log(Astro);
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{tittle}</title>
+  </head>
+  <body>
+    <HeaderComponent />
+    <hr />
+    <slot />
+    <hr />
+    <FooterComponent />
+  </body>
+</html>

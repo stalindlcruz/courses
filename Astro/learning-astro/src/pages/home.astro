@@ -1,0 +1,32 @@
+---
+import SecondaryLoyout from "../layouts/SecondaryLoyout.astro";
+---
+
+<SecondaryLoyout tittle="Home">
+  <h1>Welcome to the home page</h1>
+  <h2>Este es el h2 del home</h2>
+  <p>This is the content of the home page.</p>
+  <p>Feel free to explore!</p>
+  <a href="/users">Ir a users</a>
+</SecondaryLoyout>
+
+<style is:global>
+  h1 {
+    color: blue;
+  }
+
+  h2 {
+    color: rgb(187, 187, 3);
+  }
+
+  p {
+    font-size: 18px;
+    line-height: 1.5;
+    color: red;
+  }
+
+  span,
+  h3 {
+    color: rgb(249, 171, 75);
+  }
+</style>

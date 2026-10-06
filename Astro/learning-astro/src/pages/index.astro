@@ -1,0 +1,26 @@
+---
+import HeaderComponent from "../components/HeaderComponent.astro";
+import MainLayout from "../layouts/MainLayout.astro";
+
+const ImgUrl =
+  "https://static1.srcdn.com/wordpress/wp-content/uploads/2024/11/split-image-of-anthony-mackie-s-sam-wilson-in-his-falcon-suit-in-captain-america-the-winter-soldier-2014-on-the-left-sam-in-his-captain-america-suit-in-the-captain-america-brave-new-world-2025-trailer-on-the-right.jpg?q=70&fit=crop&w=1140&h=&dpr=1";
+---
+
+<MainLayout tittle="Home" imgUrl={ImgUrl} imgName="CaptainAmerica" width={300}>
+  <h1>Im a Tittle</h1>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias nihil
+    sequi et itaque quasi accusantium sit facilis dolorum ab. Vero sequi
+    voluptas libero, iste enim debitis praesentium consequuntur neque
+    laudantium.
+  </p>
+  <p>
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex quae architecto
+    maxime quam ipsa quisquam eius qui laudantium hic nihil maiores nemo magnam
+    deserunt, illum exercitationem laboriosam temporibus alias expedita!
+  </p>
+</MainLayout>
+
+<HeaderComponent>
+  <h2>Second Tittle</h2>
+</HeaderComponent>

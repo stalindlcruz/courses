@@ -1,0 +1,52 @@
+---
+import UserLayout from "../../layouts/UserLayout.astro";
+import type { User } from "../../interfaces/IUser";
+
+const request = await fetch("https://jsonplaceholder.typicode.com/users");
+const response: User[] = await request.json();
+---
+
+<UserLayout tittle="User">
+  <!-- <h1>Welcome to the user page</h1>
+  <button id="btn">Hola</button> -->
+  {
+    response.map((user) => (
+      <div>
+        <img
+          transition:name="img"
+          src="https://imgs.search.brave.com/Jeuvd19UXhgkq97ZmhSxHf-ivIOnzZAXbt3mEXZM8oY/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/cHNkLWdyYXRpcy9p/bHVzdHJhY2lvbi1p/Y29uby1jb250YWN0/by1haXNsYWRhXzIz/LTIxNTE5MDMzMzcu/anBnP3NlbXQ9YWlz/X2h5YnJpZCZ3PTc0/MA"
+          alt={user.name}
+          width="200px"
+        />
+        <h1>{user.name}</h1>
+        <h2>{user.username}</h2>
+        <p>{user.email}</p>
+        <p>{user.phone}</p>
+        <p>{user.website}</p>
+        <p>{user.address.city}</p>
+        <p>{user.company.name}</p>
+        <button class="btn"> Click Me</button>
+        <a href={`/users/${user.id}`}>{"More details"}</a>
+        <hr />
+      </div>
+    ))
+  }
+</UserLayout>
+
+<style></style>
+
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const btns = document.querySelectorAll("button.btn");
+
+    btns.forEach((btn) => {
+      btn.addEventListener("click", async () => {
+        const request = await fetch(
+          "https://jsonplaceholder.typicode.com/users"
+        );
+        const response = await request.json();
+        console.log(response);
+      });
+    });
+  });
+</script>

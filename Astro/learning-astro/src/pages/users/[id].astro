@@ -1,0 +1,35 @@
+---
+import type { GetStaticPaths } from "astro";
+import * as _ from "../../assets/db.json";
+import type { User } from "../../interfaces/IUser";
+
+export const getStaticPaths = (async () => {
+  //   return [
+  //     {
+  //       params: { id: "" },
+  //     },
+  //   ];
+
+  const request = await fetch("https://jsonplaceholder.typicode.com/users");
+  const response: User[] = await request.json();
+
+  return response.map((user) => {
+    return {
+      params: { id: user.id.toString() },
+      props: { name: user.name },
+    };
+  });
+}) satisfies GetStaticPaths;
+
+const { id } = Astro.params;
+const { name } = Astro.props;
+---
+
+<img
+  transition:name="img"
+  src="https://imgs.search.brave.com/Jeuvd19UXhgkq97ZmhSxHf-ivIOnzZAXbt3mEXZM8oY/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/cHNkLWdyYXRpcy9p/bHVzdHJhY2lvbi1p/Y29uby1jb250YWN0/by1haXNsYWRhXzIz/LTIxNTE5MDMzMzcu/anBnP3NlbXQ9YWlz/X2h5YnJpZCZ3PTc0/MA"
+  alt={name}
+  width="400px"
+/>
+<h1>{name}</h1>
+<h2>{id}</h2>

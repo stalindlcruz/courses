@@ -1,0 +1,25 @@
+---
+import "../styles/global.css";
+import { ClientRouter, fade, slide } from "astro:transitions";
+
+interface Props {
+  tittle?: string;
+}
+
+const { tittle } = Astro.props as Props;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{tittle}</title>
+    <ClientRouter />
+  </head>
+  <body>
+    <hr />
+    <slot />
+    <hr />
+  </body>
+</html>

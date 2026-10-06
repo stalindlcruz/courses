@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2rem;
+}
+
+h1 {
+    color: green;
+}
